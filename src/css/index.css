@@ -1,0 +1,34 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: "Ubuntu";
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.hexagons {
+  background-image: url("../images/hexagons.svg");
+  background-size: cover;
+}
+
+.about-us {
+  background-size: cover;
+}
+
+.hexagon {
+  background-image: url("../images/hexagon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
