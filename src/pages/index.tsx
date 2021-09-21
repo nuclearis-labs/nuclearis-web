@@ -24,10 +24,9 @@ function Index(_props: Props): ReactElement {
         <div className="max-w-5xl m-auto px-8">
           <div className="grid grid-cols-12">
             <div className="col-start-2 col-span-10 sm:col-start-3 sm:col-span-8 md:col-start-4 md:col-span-6 lg:col-start-8 lg:col-span-5 2xl:col-start-7 2xl:col-span-6">
-              <h1 className="text-white font-light md:tracking-wide mb-8 text-center text-2xl 2xl:text-3xl lg:text-left">
-                Nuclearis Corp provides engineering solutions and project
-                management to support the{" "}
-                <span className="font-bold">nuclear industry.</span>{" "}
+              <h1 className="text-white font-light md:tracking-wide mb-8 text-center text-xl 2xl:text-2xl lg:text-left">
+              Nuclearis es una empresa Argentina dedicada a la ingeniería y fabricación de componentes mecánicos para la {" "}
+                <span className="font-bold">industria nuclear.</span>{" "}
               </h1>
               <span className="bg-white h-1 w-8 block m-auto lg:m-0"></span>
             </div>

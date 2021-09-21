@@ -15,7 +15,7 @@ function Contact(_props: Props): ReactElement {
         <div className="grid grid-cols-12 sm:gap-10">
           <div className="col-span-12 sm:col-start-3 sm:col-span-8 md:col-span-6">
             <h1 className="font-bold text-3xl mb-5 text-gable tracking-wide">
-              Contact Us
+              Contacto
             </h1>
             <form
               action="https://nuclearis.us7.list-manage.com/subscribe/post?u=e585a2414f24a8ee147a6c478&amp;id=7d7872dd3e"
@@ -27,7 +27,7 @@ function Contact(_props: Props): ReactElement {
               <input
                 className="w-full block bg-zircon placeholder-gable mb-5 px-3 py-2"
                 type="text"
-                placeholder="* Name"
+                placeholder="* Nombre"
                 name="NAME"
                 required
               />
@@ -42,17 +42,17 @@ function Contact(_props: Props): ReactElement {
                 className="w-full block bg-zircon placeholder-gable mb-5 px-3 py-2"
                 type="text"
                 name="COMPANY"
-                placeholder="Company"
+                placeholder="Empresa"
               />
               <input
                 className="w-full block bg-zircon placeholder-gable mb-5 px-3 py-2"
                 type="text"
                 name="PHONE"
-                placeholder="Phone"
+                placeholder="Teléfono"
               />
               <textarea
                 className="w-full block bg-zircon placeholder-gable mb-5 px-3 py-2 h-28"
-                placeholder="* Message"
+                placeholder="* Mensaje"
                 name="MESSAGE"
                 required
               ></textarea>
@@ -60,7 +60,7 @@ function Contact(_props: Props): ReactElement {
                 type="submit"
                 id="submit-button"
                 className="bg-pelorous px-7 py-2 text-white tracking-wide hover:bg-gable"
-                value="Send"
+                value="Enviar"
               />
             </form>
           </div>

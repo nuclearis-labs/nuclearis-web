@@ -15,17 +15,29 @@ function Services(_props: Props): ReactElement {
         <div className="sm:grid sm:grid-cols-12 sm:gap-10">
           <div className="sm:col-span-8 box-border">
             <h1 className="font-bold text-3xl mb-7 text-gable tracking-wide">
-              Services
+              Servicios
             </h1>
-            <h1 className="font-bold text-4xl mb-7 sm:pr-32 text-gable tracking-wide">
-              We have a solid background providing support to nuclear facilities
-              including nuclear power plants, SMR and Laboratories.
-            </h1>
+            <h2 className="font-bold text-xl mb-2 sm:pr-32 text-gable tracking-wide">FABRICACIÓN DE COMPONENTES</h2>
+            <p className="text-gable md:text-justify mb-4">Soluciones tecnológicas de alta complejidad</p>
+            
+            <h2 className="font-bold text-xl mb-2 sm:pr-32 text-gable tracking-wide">INGENIERÍA DE VANGUARDIA</h2>
+            <p className="text-gable md:text-justify mb-4">De Diseño de Equipos, Básica de Procesos e Ingeniería de Detalle</p>
 
-            <p className="text-gable md:text-justify mb-4">Our expertise covers basic and detailed engineering, manufacturing of special mechanical components, electroplating, special coating and full-scope mechanical mockups. We also have extensive experience in equipment automation.</p>
+            <h2 className="font-bold text-xl mb-2 sm:pr-32 text-gable tracking-wide">QUALITY ASSURANCE</h2>
+            <p className="text-gable md:text-justify mb-4">Garantizando las normas internacionales de calidad</p>
 
-            <p className="text-gable md:text-justify mb-4">Nuclearis is committed to providing tailored support services to your operations, thus our services include full project management that covers design, fabrication, equipment installation and commissioning.</p>
+            <h2 className="font-bold text-xl mb-2 sm:pr-32 text-gable tracking-wide">ALIANZAS ESTRATÉGICAS</h2>
+            <p className="text-gable md:text-justify mb-4">Cooperación comercial internacional de primera línea</p>
+            <p className="text-gable md:text-justify mb-4"> Al día de hoy Nuclearis ha desarrollado y fabricado diversos componentes y equipos automáticos para los siguientes proyectos y reactores:</p>
 
+            <ul className="list-disc">
+              <li><p className="text-gable md:text-justify mb-0">CENTRAL NUCLEAR ATUCHA I: NA-SA.</p></li>
+              <li><p className="text-gable md:text-justify mb-0">CENTRAL NUCLEAR ATUCHA II: NA-SA.</p></li>
+              <li><p className="text-gable md:text-justify mb-0">CENTRAL NUCLEAR EMBALSE: NA-SA.</p></li>
+              <li><p className="text-gable md:text-justify mb-0">CAREM 25 REACTOR: CNEA.</p></li>
+              <li><p className="text-gable md:text-justify mb-0">RA-10 RESEARCHING REACTOR: CNEA.</p></li>
+              <li><p className="text-gable md:text-justify mb-0">NUEVA PLANTA DE URANIO: DIOXITEK.</p></li>
+            </ul>
           </div>
           <div className="col-span-4 hidden sm:block">
             <StaticImage src="../images/services.jpg" alt="Services" />

@@ -34,28 +34,28 @@ const MobileHeader = (_props: Props): ReactElement => {
       </div>
       <div className={`${isExpanded ? 'max-h-screen opacity-100 pb-5' : 'max-h-0 opacity-0'} overflow-hidden px-8 w-full transition-all duration-500 ease-in-out block z-40 text-white text-xl`}>
         <Link to="/" className="block py-2 hover:text-pelorous">
-          Home
+          Inicio
         </Link>
         <Link
           to="/about"
           className="block py-2 hover:text-pelorous"
         >
-          About Us
+          Nosotros
         </Link>
         <Link
           to="/services"
           className="block py-2 hover:text-pelorous"
         >
-          Services
+          Servicios
         </Link>
         <Link
           to="/works"
           className="block py-2 hover:text-pelorous"
         >
-          Our Work
+          Nuestro Trabajo
         </Link>
         <Link to="/contact" className="block py-2 hover:text-pelorous">
-          Contact Us
+          Contacto
         </Link>
       </div>
     </header>
@@ -85,28 +85,28 @@ const DesktopHeader = (_props: Props): ReactElement => {
           <div className="flex-auto text-right">
             <div className="text-xs text-white font-bold tracking-wide uppercase mt-3">
               <Link to="/" className="mr-7 inline-block hover:text-pelorous">
-                Home
+                Inicio
               </Link>
               <Link
                 to="/about"
                 className="mr-7 inline-block hover:text-pelorous"
               >
-                About Us
+                Nosotros
               </Link>
               <Link
                 to="/services"
                 className="mr-7 inline-block hover:text-pelorous"
               >
-                Services
+                Servicios
               </Link>
               <Link
                 to="/works"
                 className="mr-7 inline-block hover:text-pelorous"
               >
-                Our Work
+                Nuestro Trabajo
               </Link>
               <Link to="/contact" className="inline-block hover:text-pelorous">
-                Contact Us
+                Contacto
               </Link>
               {!_props.isLanding && (
                 <div className="hidden">
@@ -166,7 +166,7 @@ const Header = (_props: Props) => {
   
   return (
     <>
-      <div className={`z-20 absolute h-1 block top-0 ${loadingBar} bg-submarine transition-all duration-1000 ease-in-out`}></div>
+      <div className={`z-20 absolute h-1 block top-0 ${loadingBar} bg-pelorous transition-all duration-1000 ease-in-out`}></div>
       <div className="block sm:hidden">
         <MobileHeader isLanding={_props.isLanding} />
       </div>

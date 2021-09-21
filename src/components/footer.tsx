@@ -21,15 +21,15 @@ function Footer(_props: Props): ReactElement {
           </a>
           <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-5 pb-6 mb-4 border-b border-submarine text-submarine text-sm sm:text-base">
             <div className="mt-auto md:col-span-3 lg:col-span-5">
-              <p>7620 Jefferson St NE, Suite 7</p>
-              <p>Albuquerque, New Mexico</p>
-              <p>USA 87109</p>
+              <p>General Balcarce 160</p>
+              <p>Villa Martelli, Buenos Aires</p>
+              <p>Argentina 1603</p>
             </div>
             <div className="md:col-span-2 lg:col-span-4">
-              <p>+1 505 926 1022</p>
-              <p>sales@nuclearis.com</p>
+              <p>+54 11 5263-2700</p>
+              <p>info@nuclearis.com</p>
             </div>
-            <div className="hidden col-span-2 md:col-span-1 lg:col-span-3 mx-auto md:ml-auto md:mr-0 mt-5 md:mt-auto">
+            <div className="col-span-2 md:col-span-1 lg:col-span-3 mx-auto md:ml-auto md:mr-0 mt-5 md:mt-auto">
               <a
                 href="https://www.instagram.com/nuclearis.nrs"
                 className="mr-3 inline-block w-6"
@@ -63,8 +63,8 @@ function Footer(_props: Props): ReactElement {
             </div>
           </div>
           <p className="text-submarine text-sm text-center">
-              &copy; 2021. Nuclearis Corp - All rights reserved.
-              {` //`} Designed by
+              &copy; 2021. Nuclearis - Todos los derechos reservados.
+              {` //`} Diseñado por
               <a
                 href="https://www.stereotypo.com.ar/"
                 target="_blank"

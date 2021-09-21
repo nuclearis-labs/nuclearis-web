@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Nuclearis Corporation`,
-    description: `Provides engineering solutions and project management to support the nuclear industry.`,
-    author: `NuclearisCorp`,
-    url: `https://nucleariscorp.com`,
+    title: `Nuclearis`,
+    description: `Empresa Argentina dedicada a la ingeniería y fabricación de componentes mecánicos para la industria nuclear.`,
+    author: `Nuclearis`,
+    url: `https://nuclearis.com`,
     image: `docs/default.jpg`
   },
   plugins: [
@@ -78,7 +78,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "nucleariscorp.com",
+        cookieDomain: "nuclearis.com",
         // defaults to false
         enableWebVitalsTracking: true,
       },

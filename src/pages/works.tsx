@@ -56,7 +56,7 @@ function Works(_props: Props): ReactElement {
       <div className="w-full max-w-5xl m-auto py-20 px-8">
         <div className="grid grid-cols-12">
           <h1 className="font-bold col-span-4 text-3xl mb-7 text-gable tracking-wide">
-            Our Work
+            Nuestro Trabajo
           </h1>
           {expandedWork && (
             <div className="text-right col-span-8">
