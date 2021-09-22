@@ -29,7 +29,7 @@ function Footer(_props: Props): ReactElement {
               <p>+54 11 5263-2700</p>
               <p>info@nuclearis.com</p>
             </div>
-            <div className="col-span-2 md:col-span-1 lg:col-span-3 mx-auto md:ml-auto md:mr-0 mt-5 md:mt-auto">
+            <div className="hidden col-span-2 md:col-span-1 lg:col-span-3 mx-auto md:ml-auto md:mr-0 mt-5 md:mt-auto">
               <a
                 href="https://www.instagram.com/nuclearis.nrs"
                 className="mr-3 inline-block w-6"
