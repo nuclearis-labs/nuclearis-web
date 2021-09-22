@@ -64,8 +64,8 @@ function Contact(_props: Props): ReactElement {
               />
             </form>
           </div>
-          <div className="col-span-6 pt-16 px-0 lg:px-4 hidden md:block">
-            <StaticImage layout="constrained" quality={100} width={300} src="../images/argentina.svg" alt="Argentina" />
+          <div className="col-span-6 pt-2 px-0 lg:px-4 hidden md:block">
+            <StaticImage layout="constrained" quality={100} src="../images/argentina.png" alt="Argentina" />
           </div>
         </div>
       </div>

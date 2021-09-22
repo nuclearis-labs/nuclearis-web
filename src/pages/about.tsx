@@ -46,7 +46,7 @@ function About(_props: Props): ReactElement {
           <div className="grid grid-cols-12 gap-1">
             <div className="col-span-12 sm:col-span-6 pt-7 pb-12 relative">
               <h2 className="font-bold text-3xl mb-1 text-gable tracking-wide">
-                Socios 
+                Partners 
               </h2>
               <h3 className="text-2xl mb-4 text-gable tracking-wide">
                 {partnersContent[currenTrajectory].title}

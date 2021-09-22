@@ -24,7 +24,7 @@ function Index(_props: Props): ReactElement {
         <div className="max-w-5xl m-auto px-8">
           <div className="grid grid-cols-12">
             <div className="col-start-2 col-span-10 sm:col-start-3 sm:col-span-8 md:col-start-4 md:col-span-6 lg:col-start-8 lg:col-span-5 2xl:col-start-7 2xl:col-span-6">
-              <h1 className="text-white font-light md:tracking-wide mb-8 text-center text-xl 2xl:text-2xl lg:text-left">
+              <h1 className="text-white font-light md:tracking-wide mb-8 text-center text-lg 2xl:text-xl lg:text-left">
               Nuclearis es una empresa Argentina dedicada a la ingeniería y fabricación de componentes mecánicos para la {" "}
                 <span className="font-bold">industria nuclear.</span>{" "}
               </h1>
