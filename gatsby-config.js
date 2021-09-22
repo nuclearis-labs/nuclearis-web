@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Nuclearis`,
+    title: `Nuclearis - Tecnología Nuclear | Buenos Aires`,
     description: `Empresa Argentina dedicada a la ingeniería y fabricación de componentes mecánicos para la industria nuclear.`,
     author: `Nuclearis`,
     url: `https://nuclearis.com`,
