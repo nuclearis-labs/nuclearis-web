@@ -1,8 +1,8 @@
 const worksContent = [
   {
     id: "work_1",
-    title: "Electroplating Machine 1.0",
-    shortText: "For Siemens KWU Nuclear Power Plant",
+    title: "Plateadora 1.0",
+    shortText: "Centrales Nucleares Atucha I y II",
     overlayText: `<p>NUCLEARIS is a qualified supplier of Seal Rings, class 1 components, for PHWR 
       (pressurized heavy water reactor) Nuclear Power Plants. These components are used in 
       SIEMENS-KWU nuclear power plants, and they are metallic seals covered in electrolytic 
@@ -23,8 +23,8 @@ const worksContent = [
   },
   {
     id: "work_2",
-    title: "Decay Pool Safety System",
-    shortText: "For Siemens KWU Nuclear Power Plant",
+    title: "Sistema de Seguridad en Piletas de Combustibles",
+    shortText: "Central Nuclear Atucha I",
     overlayText: `<p class="mb-2">NUCLEARIS developed the engineering, construction, and startup of an automated operational safety system to reduce maneuvering of the bridge handling burned uranium fuels.</p>
       <p class="mb-2">The decay pools have demineralized water that cools down the spent fuels and acts as a biological shield for radiation.</p>`,
     fullText: `<p class="mb-2">NUCLEARIS developed the engineering, construction, and startup of an automated 
@@ -43,8 +43,8 @@ const worksContent = [
   },
   {
     id: "work_3",
-    title: "Nuclear Mechanical Encoders",
-    shortText: "For Siemens KWU Nuclear Power Plant",
+    title: "Encoders Mecánicos Nucleares",
+    shortText: "Central Nuclear Atucha II",
     overlayText: `NUCLEARIS, through its qualified machining partners, has developed the production of high precision 
       metal discs for the positioning system of the refueling machine of SIEMENS-KWU nuclear power plants. 
       This machine is in charge of extracting spent uranium fuel elements and introducing new ones inside 
@@ -67,8 +67,8 @@ const worksContent = [
   },
   {
     id: "work_4",
-    title: "Electroplating Machine 2.0",
-    shortText: "For CANDU Type Nuclear Power Plant",
+    title: "Plateadora 2.0",
+    shortText: "Central Nuclear Tipo CANDU",
     overlayText: `NUCLEARIS has designed and manufactured two mechanical class 1 components (Component for the nuclear 
       island in an NPP) for CANDU (Canadian Deuterium Uranium) reactors from Canada. These mechanical 
       components have a key role in the reactor operation and their function is to seal the heavy water 
@@ -90,8 +90,8 @@ const worksContent = [
   },
   {
     id: "work_5",
-    title: "Irradiation Head",
-    shortText: "For Research Nuclear Reactor RA10",
+    title: "Cabezal de Irradiación",
+    shortText: "Reactor de Investigación RA10",
     overlayText: `<p class="mb-1">NUCLEARIS has developed detailed engineering of a testing device for a new multipurpose research nuclear reactor called RA10 for the National Commission of Atomic Energy (CNEA) of Argentina.</p>
       <p>This device allows the evaluation of the thermal and neutronic performance of the fuel rods for different NPPs. NUCLEARIS developed this testing device under ASME CODE section III.</p>`,
     fullText: `<p class="mb-2">NUCLEARIS has developed detailed engineering of a testing device for a new multipurpose research nuclear reactor called RA10 for the National Commission of Atomic Energy (CNEA) of Argentina.</p>
@@ -101,8 +101,8 @@ const worksContent = [
   },
   {
     id: "work_6",
-    title: "Primary Circuit Valve",
-    shortText: "For Siemens KWU Nuclear Power Plant",
+    title: "Válvula de circuito primario",
+    shortText: "Central Nuclear Atucha I",
     overlayText: `The PHWR (pressurized heavy water reactors) Nuclear Power Plants from Siemens-KWU were designed in the 1970s, and today some spare parts are no longer manufactured in their country of origin. NUCLEARIS has developed various mechanical components that have been discontinued by the original manufacturers, in Germany.`,
     fullText: `<p class="mb-2">The PHWR (pressurized heavy water reactors) Nuclear Power Plants from Siemens-KWU were designed in the 1970s, and today some spare parts are no longer manufactured in their country of origin. NUCLEARIS has developed various mechanical components that have been discontinued by the original manufacturers, in Germany.</p>
       <p class="mb-2">In this case, we have reverse-engineered a valve from the heavy water primary circuit and manufactured prototypes to test in a mock-up until we obtained a final qualification according to the technical requirements of the plant.</p>

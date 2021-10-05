@@ -137,7 +137,7 @@ function Works(_props: Props): ReactElement {
                         className="text-sm md:text-sm lg:text-base text-white font-bold"
                         onMouseOver={() => setShowAllText(true)}
                       >
-                        Read more
+                        Leer más
                       </button>
                     </div>
                   ) : (
@@ -173,7 +173,7 @@ function Works(_props: Props): ReactElement {
                     />
                     <div className="absolute top-0 right-0 left-0 bottom-0 bg-black sm:opacity-0 block transition-all bg-opacity-50 hover:opacity-100">
                       <div className="absolute top-1/2 left-1/2 transform w-full text-center -translate-y-2/4 -translate-x-2/4">
-                        <h2 className="text-pelorous font-bold text-xl mb-2">
+                        <h2 className="text-pelorous font-bold text-xl mb-2 p-1">
                           {work.title}
                         </h2>
                         <p className="text-white">{work.shortText}</p>
@@ -181,7 +181,7 @@ function Works(_props: Props): ReactElement {
                           className="bg-pelorous text-white font-bold focus:outline-none mt-4 text-sm py-2 px-4"
                           onClick={() => setExpandedWork(work)}
                         >
-                          View more
+                          Ver más
                         </button>
                       </div>
                     </div>
