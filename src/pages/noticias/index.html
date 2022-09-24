@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/icons/icon.ico">
+    <title>Nuclearis - Tecnología Nuclear | Buenos Aires</title>
+
+    <!-- Style Personalizado -->
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Uikit -->
+    <link rel="stylesheet" href="../../css/uikit.min.css">
+    <script src="../../js/uikit.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="uk-container-expand">
+        <div class="uk-position-relative">
+            <img src="../../../src/img/noticias.jpg" alt="Imagen de fondo para noticias">
+            <div class="uk-position-bottom-center ">
+                <h1 class="uk-text-center uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+                    Enterate de las ultimas<br>
+                    noticias de la empresa y<br>
+                    de la industria nuclear.
+                </h1>
+            </div>
+
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+                    uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a class="uk-navbar-item uk-logo" href="../../index.html"><img src="../../img/icons/logo.svg"
+                                width="150" height="30" alt="Logo Nuclearis"></a>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="../../../index.html">INICIO</a></li>
+                            <li>
+                                <a href="#">EMPRESA</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="../../pages/empresa/nosotros/index.html">Nosotros</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="../empresa/fabricacion/index.html">Fabricación</a></li>
+                                        <li><a href="../empresa/ingenieria/index.html">Ingeniería</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">CERTIFICACIONES</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="../certificaciones/asme-npt/index.html">Asme NPT</a></li>
+                                        <li><a href="../certificaciones/material-organization/index.html">Material
+                                                Organization</a></li>
+                                        <li><a href="../certificaciones/calidad/index.html">Calidad</a></li>
+                                        <li><a href="../certificaciones/sustentabilidad/index.html">Sustentabilidad</a>
+                                        </li>
+                                        <li><a href="../certificaciones/compliance/index.html">Compliance</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="../blockchain/index.html">BLOCKCHAIN NUCLEAR</a></li>
+                            <li><a href="#" class="active">NOTICIAS</a></li>
+                            <li><a href="../proyectos/index.html">PROYECTOS</a></li>
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right mobile">
+                        <ul class="uk-navbar-nav">
+                            <a uk-toggle="target: #offcanvas-nav-primary"><img src="../../img/icons/menu.svg"
+                                    alt="Menu Mobile"></a>
+                            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                                    <ul uk-accordion>
+                                        <a class="uk-accordion-title uk-text-small"
+                                            href="../../../index.html">Inicio</a>
+                                        <li>
+                                            <a class="uk-accordion-title uk-text-small" href="#">Empresa</a>
+                                            <div class="uk-accordion-content uk-flex uk-flex-column">
+                                                <a href="../empresa/nosotros/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Nosotros</a>
+                                                <a href="../empresa/fabricacion/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Fabricación</a>
+                                                <a href="../empresa/ingenieria/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Ingeniería</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="uk-accordion-title uk-text-small" href="#">Certificaciones</a>
+                                            <div class="uk-accordion-content uk-flex uk-flex-column">
+                                                <a href="../certificaciones/asme-npt/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
+                                                    NPT</a>
+                                                <a href="../certificaciones/material-organization/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material
+                                                    Organization</a>
+                                                <a href="../certificaciones/calidad/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Calidad</a>
+                                                <a href="../certificaciones/sustentabilidad/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustentabilidad</a>
+                                                <a href="../certificaciones/compliance/index.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
+                                            </div>
+                                        </li>
+                                        <a class="uk-accordion-title uk-text-small"
+                                            href="../blockchain/index.html">Blockchain Nuclear</a>
+                                        <a class="uk-accordion-title uk-text-small" href="#">Noticias</a>
+                                        <a class="uk-accordion-title uk-text-small" href="../proyectos/index.html">Proyectos</a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTICIAS DESTACADAS -->
+    <div class="uk-container-expand">
+        <h2 class="uk-padding uk-padding-remove-bottom">Noticias Destacadas</h2>
+        <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+            uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove">
+                    <a href="#modal-sections-video" uk-toggle>
+                        <div class="uk-background-top-right uk-background-cover uk-height-medium uk-panel"
+                            style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(../../img/blockchain.jpg);">
+                            <div
+                                class="uk-position-top-right uk-padding-small uk-padding-remove-bottom uk-padding-remove-left uk-padding-remove-right">
+                                <img src="../../img/icons/video.svg" alt="Icono video noticia destacada">
+                            </div>
+                            <div
+                                class="uk-position-bottom-left uk-padding-small uk-padding-remove-bottom uk-padding-remove-right">
+                                <h1 class="uk-text-large">Titulo de la noticia</h1>
+                                <p class="uk-text-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div id="modal-sections-video" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">Titulo noticia</h2>
+                            </div>
+                            <video src="../../video/video.mp4" width="1800" height="200px" loop muted playsinline
+                                uk-video="autoplay: inview"></video>
+                            <div class="uk-modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <p class="uk-text-default">Abril, 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-padding-remove">
+                    <a href="#modal-sections-video" uk-toggle>
+                        <div class="uk-background-top-right uk-background-cover uk-height-medium uk-panel"
+                            style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url(../../img/blockchain.jpg);">
+                            <div
+                                class="uk-position-top-right uk-padding-small uk-padding-remove-bottom uk-padding-remove-left uk-padding-remove-right">
+                                <img src="../../img/icons/video.svg" alt="Icono video noticia destacada">
+                            </div>
+                            <div
+                                class="uk-position-bottom-left uk-padding-small uk-padding-remove-bottom uk-padding-remove-right">
+                                <h1 class="uk-text-large">Titulo de la noticia</h1>
+                                <p class="uk-text-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div id="modal-sections-video" uk-modal>
+                        <div class="uk-modal-dialog">
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <div class="uk-modal-header">
+                                <h2 class="uk-modal-title">Titulo noticia</h2>
+                            </div>
+                            <video src="../../video/video.mp4" width="1800" height="200px" loop muted playsinline
+                                uk-video="autoplay: inview"></video>
+                            <div class="uk-modal-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                            <div class="uk-modal-footer uk-text-right">
+                                <p class="uk-text-default">Abril, 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- TODAS LAS NOTICIAS -->
+    <h2 class="uk-padding uk-padding-remove-bottom">Todas las noticias</h2>
+
+    <div uk-slider class="uk-padding uk-padding-remove-right uk-padding-remove-left">
+
+        <div class="uk-position-relative uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+
+            <div class="uk-slider-container uk-light">
+                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-3@m uk-grid">
+                    <li>
+                        <div class="border">
+                            <a href="#modal-full" uk-toggle>
+                                <img src="../../img/blockchain.jpg" width="400" height="600" alt="">
+                                <div class="uk-panel uk-position-large uk-position-top-left uk-flex uk-flex-middle">
+                                    <p class="uk-text-large">16</p>
+                                    <p class="uk-text-default">Abril,<br>2022
+                                    </p>
+                                </div>
+                                <div class="uk-panel uk-position-large uk-position-bottom-left">
+                                    <h1 class="uk-text-large title-noti">Nuclearis: primera PYME de Latinoamérica
+                                        <br>en obtener la Certificación
+                                        <br>ASME NUCLEAR
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="modal-full" class="uk-modal-full" uk-modal>
+                            <div class="uk-modal-dialog">
+                                <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                                <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                                    <div class="uk-background-cover"
+                                        style="background-image: url('../../img/fabricación-principal.jpg');"
+                                        uk-height-viewport></div>
+                                    <div class="uk-padding-large">
+                                        <p>Sólo tres empresas de la región contaban con este prestigioso aval
+                                            internacional. Ahora se suma la firma argentina NUCLEARIS, surgida hace 12
+                                            años desde un garaje prestado que se convertiría con el tiempo en una puerta
+                                            hacia el mundo. “Esta certificación incluye un estándar de calidad aún más
+                                            exigente que el de la industria aeronáutica”, explica la Gerenta General de
+                                            la compañía, quien comparte las implicancias de este logro, la repercusión
+                                            que tendrá en la cadena de valor de la empresa y cómo a partir de ahora se
+                                            abre un horizonte internacional con enorme potencial.</p>
+                                        <h1>Del garaje a la certificación ASME NUCLEAR</h1>
+                                        <p>“Con el renacer de la industria nuclear en nuestro país a partir de 2006 se
+                                            fue creando gradualmente un campo fértil para el desarrollo de empresas que
+                                            abastecieran a los incipientes proyectos nucleares y a aquellos que se
+                                            estaban retomando. Se trataba de la puesta en marcha de Atucha II, la
+                                            extensión de vida de la central Embalse y la ejecución de la ingeniería del
+                                            reactor CAREM. En ese contexto nació NUCLEARIS”, relata la Lic. María José
+                                            Ureta, Gerenta General de la compañía.
+
+                                            NUCLEARIS se creó para desarrollar y fabricar componentes mecánicos para los
+                                            reactores de Argentina, componentes que durante muchos años se importaron
+                                            desde Alemania o Canadá. El objetivo estaba perfectamente definido:
+                                            “Detectar aquellos repuestos críticos que los reactores nucleares requieren
+                                            habitualmente y luego desarrollar líneas de producción que los fabricaran en
+                                            suelo nacional”.
+
+                                            “Como usualmente comienzan las PyMES en Argentina, siempre hay ‘un garaje’
+                                            prestado en donde empiezan a trabajar los emprendedores de una pequeña
+                                            compañía que no deja de soñar con grandes planes de expansión”, asegura
+                                            María José. La historia de NUCLEARIS es igual: un garaje convertido en un
+                                            taller provisorio fue el emplazamiento para construir una primera máquina
+                                            automática que producía unos componentes que originalmente se compraban a
+                                            Alemania.
+
+                                            El éxito técnico de esa máquina permitió montar una línea de producción de
+                                            repuestos mecánicos para las centrales Atucha. “Pero NUCLEARIS no solamente
+                                            debía equiparse con tecnología, sino también con un robusto Sistema de
+                                            Gestión de Calidad que abasteciera de alta confiabilidad a sus procesos y
+                                            productos”, agrega la Gerenta General.
+
+                                            En sintonía con esos lineamientos, y debido a que la empresa fue creada para
+                                            dedicarse específicamente a desarrollos del rubro nuclear, NUCLEARIS siempre
+                                            tuvo la aspiración de lograr algo que parecería reservarse solamente para
+                                            enormes compañías del sector: obtener la “Certificación ASME Nuclear” que
+                                            otorga la American Society of Mechanical Engineers (ASME).</p>
+                                        <blockquote cite="#">
+                                            <p class="uk-margin-small-bottom">NUCLEARIS siempre tuvo la aspiración de
+                                                obtener la Certificación ASME Nuclear</p>
+                                        </blockquote>
+                                        <p>Fundada en 1880, ASME es una prestigiosa organización profesional creada con
+                                            el objetivo de generar una serie de códigos de diseño para la construcción,
+                                            pruebas e inspección de equipos industriales para garantizar su seguridad y
+                                            calidad. Entre ellos, elaboró un código específico de aplicación en la
+                                            industria nuclear: “Actualmente, una gran mayoría de los reactores nucleares
+                                            que están operativos en el mundo se encuentran diseñados y construidos bajo
+                                            este estándar de calidad americano que cuenta con reconocimiento a nivel
+                                            global”, amplía la Lic. Ureta.
+
+                                            Recientemente -luego de varios años de trabajo, una inversión millonaria y
+                                            ocho días de auditoría-, NUCLEARIS obtuvo esa destacada certificación,
+                                            convirtiéndose en la primera PyME en Latinoamérica en alcanzar este logro
+                                            que le permitirá fabricar repuestos de centrales nucleares de alto valor
+                                            agregado y exportarlos desde Argentina al mundo.</p>
+                                            <blockquote cite="#">
+                                                <p class="uk-margin-small-bottom">La Certificación ASME Nuclear le permitirá a NUCLEARIS fabricar repuestos de centrales nucleares de alto valor agregado y exportarlos desde Argentina al mundo</p>
+                                            </blockquote>
+                                            <p>En cuanto a los primeros pasos de NUCLEARIS y el nuevo rumbo que se abre tras la certificación, la Gerenta General de la firma explica: “El hecho de que hace un par de décadas las centrales Atucha hayan quedado huérfanas de su fabricante original KWU-Siemens (el cual abandonó su actividad en el campo nuclear), hizo que Nucleoeléctrica Argentina S.A., operadora de las centrales atómicas en nuestro país, haya tenido la necesidad de desarrollar proveedores nacionales para abastecerse de ciertos componentes especiales. Esta ventana de oportunidad le ha permitido a NUCLEARIS comenzar a desplegarse en las áreas de mecánica, automatización, software e ingeniería”.
+
+                                                “Con el transcurso de los años –continúa- escalamos nuestras actividades a proyectos tales como el Reactor CAREM, el reactor de investigación RA-10 y la nueva Planta de Uranio (NPU) que se está construyendo en Formosa. No obstante, NUCLEARIS se encontraba limitada: no podía ser proveedora de componentes para la Central Nuclear Embalse porque no poseía la Certificación ASME Nuclear. Hoy esa limitación ya no existe y la empresa puede no solamente proveer de repuestos a la planta cordobesa sino también a las centrales del tipo CANDU en Canadá. Esto conforma un hecho sin precedentes en Latinoamérica”.
+                                                
+                                                <bold>“A partir de ahora, nuestro mercado potencial es el mundo”</bold>
+                                                
+                                                “Este logro representa un gran orgullo para nuestra compañía y una demostración de que la Argentina posee empresas con capacidad intelectual y técnica para alcanzar estándares de calidad internacional. En términos de crecimiento, podemos afirmar que a partir de este momento NUCLEARIS ha logrado sobrepasar una barrera que antes era infranqueable, porque el hecho de no contar con la Certificación ASME nos circunscribía a un mercado interno, casi sin posibilidades de exportación. En cambio, a partir de ahora, nuestro mercado potencial es el mundo”, exclama la ejecutiva.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="border">
+                            <a target="_blank" href="https://enula.org/2022/03/nuclearis-primera-pyme-de-latinoamerica-en-obtener-la-certificacion-asme-nuclear/">
+                                <img src="../../img/blockchain.jpg" width="400" height="600" alt="">
+                                <div class="uk-panel uk-position-large uk-position-top-left uk-flex uk-flex-middle">
+                                    <p class="uk-text-large">16</p>
+                                    <p class="uk-text-default">Abril,<br>2022
+                                    </p>
+                                </div>
+                                <div class="uk-panel uk-position-large uk-position-bottom-left">
+                                    <h1 class="uk-text-large title-noti">Nuclearis: primera PYME de Latinoamérica
+                                        <br>en obtener la Certificación
+                                        <br>ASME NUCLEAR
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="border">
+                            <a target="_blank" href="https://enula.org/2022/03/nuclearis-primera-pyme-de-latinoamerica-en-obtener-la-certificacion-asme-nuclear/">
+                                <img src="../../img/blockchain.jpg" width="400" height="600" alt="">
+                                <div class="uk-panel uk-position-large uk-position-top-left uk-flex uk-flex-middle">
+                                    <p class="uk-text-large">16</p>
+                                    <p class="uk-text-default">Abril,<br>2022
+                                    </p>
+                                </div>
+                                <div class="uk-panel uk-position-large uk-position-bottom-left">
+                                    <h1 class="uk-text-large title-noti">Nuclearis: primera PYME de Latinoamérica
+                                        <br>en obtener la Certificación
+                                        <br>ASME NUCLEAR
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="border">
+                            <a href="#modal-sections" uk-toggle>
+                                <img src="../../img/blockchain.jpg" width="400" height="600" alt="">
+                                <div class="uk-panel uk-position-large uk-position-top-left uk-flex uk-flex-middle">
+                                    <p class="uk-text-large">16</p>
+                                    <p class="uk-text-default">Abril,<br>2022
+                                    </p>
+                                </div>
+                                <div class="uk-panel uk-position-large uk-position-bottom-left">
+                                    <h1 class="uk-text-large title-noti">Grillas Lápices
+                                        <br>de Cobalto 60
+                                    </h1>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="modal-sections" uk-modal>
+                            <div class="uk-modal-dialog">
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                <div class="uk-modal-header">
+                                    <h2 class="uk-modal-title">Titulo noticia</h2>
+                                </div>
+                                <div class="uk-modal-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="uk-modal-footer uk-text-right">
+                                    <p class="uk-text-default">Abril, 2022
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="uk-padding-large uk-padding-remove-bottom">
+        <img src="../../img/icons/logo-footer.svg" alt="Footer Logo">
+        <div class="uk-column-1-2">
+            <div class="dire">
+                <p class="uk-margin-remove">General Balcarce 160</p>
+                <p class="uk-margin-remove">Villa Martelli, Buenos Aires</p>
+                <p class="uk-margin-remove">Argentina 1603</p>
+            </div>
+            <div class="info">
+                <p class="uk-margin-remove">+54 11 5263-2700</p>
+                <p class="uk-margin-remove">info@nuclearis.com</p>
+            </div>
+        </div>
+        <hr>
+        <h6 class="uk-text-center uk-text-bolder uk-margin-remove-bottom uk-margin-remove-top">© 2022.
+            Nuclearis - Todos los derechos reservados.</h6>
+    </footer>
+
+</body>
+
+</html>
