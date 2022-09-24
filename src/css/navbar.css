@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+/* NAVBAR */
+@media (max-width: 550px){
+    body > div > div > div > nav > div.uk-navbar-right.mobile > ul > a{
+        z-index: 9999;
+    }
+    #offcanvas-nav-primary > div{
+        width: 100%;
+    }
+}
+@media (min-width: 1201px){
+    body > div > div > div > nav > div.uk-navbar-right.mobile{
+        display: none;
+        }
+    }
+@media (max-width: 1200px){
+    body > div > div > div > nav > div:nth-child(2){
+        display: none;
+        }
+}
+#offcanvas-nav-primary > div > ul > li > div > a{
+    color: #0798B6 !important;
+}
+body > div > div > div > nav > div.uk-navbar-right > ul > li > a.active{
+    background-color: #0798B6;
+    border-radius: 8px;
+}
+body > div > div > div > nav > div.uk-navbar-right > ul > li > a{
+    min-height: 30px; 
+    color: #fff !important;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+body > div > div > div > nav > div.uk-navbar-right > ul > li{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+body > div:nth-child(1) > div > div.uk-position-top > nav > div:nth-child(2) > ul{
+    margin-top: 14px;
+}
+#offcanvas-nav-primary > div{
+    justify-content: center;
+}
+#offcanvas-nav-primary > div > ul > li > a::before{
+    background-image: none;
+}
+#offcanvas-nav-primary > div > ul > a::before{
+    background-image: none;
+}
+#offcanvas-nav-primary > div > ul > hr{
+    background-color: #0798B6;
+}
+
+/* Noticias disable */
+#offcanvas-nav-primary > div > ul > a:nth-child(5){
+    display: none;
+}
+body > div > div > div > nav > div:nth-child(2) > ul > li:nth-child(5) > a{
+    display: none;
+}

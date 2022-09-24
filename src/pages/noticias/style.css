@@ -1,0 +1,168 @@
+body{
+    text-align: justify !important;
+}
+/* Titulo */
+body > div > div > img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+body > div > div > div > h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px !important;
+}
+body > div > div > div.uk-position-bottom-center > a{
+    display: block;
+    margin-bottom: 20px;
+    color: #0798B6;
+}
+
+/* Noticias destacadas */
+body > div:nth-child(2) > div > div > div > a > div > div.uk-position-bottom-left.uk-padding-small.uk-padding-remove-bottom.uk-padding-remove-right > h1{
+    color:#0798B6;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+body > div:nth-child(2) > div > div > div > a > div > div.uk-position-bottom-left.uk-padding-small.uk-padding-remove-bottom.uk-padding-remove-right > p{
+    color:#fff;
+    margin-top: 0;
+}
+body > div:nth-child(2) > h2{
+    color: rgb(47, 47, 47);
+    font-weight: 700;
+}
+
+/* Todas las noticias */
+body > h2{
+    color: rgb(47, 47, 47);
+    font-weight: 700;
+}
+body > div.uk-slider{
+    background-color: #0798B6;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > ul > li.uk-active > a{
+    background-color: #416567;
+}
+
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > ul > li > a{
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > ul{
+    margin-bottom: 0;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > img{
+    filter: brightness(30%);
+    border-radius: 8px;
+    width: 100%;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-top-left.uk-flex.uk-flex-middle{
+    margin-top: 0;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-top-left.uk-flex.uk-flex-middle > p:nth-child(1){
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 0;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-top-left.uk-flex.uk-flex-middle > p:nth-child(2){
+    margin-left: 2px;
+    color: #fff;
+    line-height: 14px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 12px;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-bottom-left > .title-noti{
+    padding: 0px 0px 10px 0px;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-bottom-left{
+    margin-bottom: 0;
+}
+.border{
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div.border > a > div.uk-panel.uk-position-large.uk-position-bottom-left > h1{
+    line-height: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+#modal-sections > div > div.uk-modal-header > h2{
+    color: #416567;
+    font-weight: 700;
+}
+#modal-sections-video > div > div.uk-modal-header > h2{
+    color: #416567;
+    font-weight: 700; 
+}
+#modal-full > div > div > div.uk-padding-large{
+    height: 75vh;
+    overflow: auto;
+}
+
+/* Responsive */
+@media (max-width: 1199px) {
+    body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-top-left.uk-flex.uk-flex-middle{
+        padding: 0px 0 0 10px;
+    }
+    body > div.uk-padding.uk-padding-remove-right.uk-padding-remove-left.uk-slider > div > div > ul > li > div > a > div.uk-panel.uk-position-large.uk-position-bottom-left > .title-noti{
+        padding: 0px 0px 10px 10px;
+    }
+}
+@media (max-width: 448px){
+    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1{
+        font-size: 22px !important;
+    }
+    body > div:nth-child(1) > div > img{
+        height: 50vh;
+    }
+}
+
+/* Footer */
+body > footer{
+    background-color: #f4f4f4;
+    margin-top: 0px;
+}
+body > footer > img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+body > footer > h6{
+    color: #416567;
+    padding-bottom: 20px;
+    font-size: 18px !important;
+}
+body > footer > hr{
+    margin-bottom: 20px;
+    height: 2px;
+    border-top: 2px solid #416567;
+}
+body > footer > div > div > p{
+    color: #416567; 
+    font-weight: 500;
+    margin-top: 0px !important;
+    margin-bottom: 15px !important;
+}
+
+@media (max-width: 430px){
+    body > footer > h6{
+        font-size: 14px !important;
+    }
+    body > footer > img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    body > footer > div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 35px;
+    }
+}
