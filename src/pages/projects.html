@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/icons/icon.ico">
+    <title>Nuclearis - Nuclear Technology | Buenos Aires</title>
+
+    <!-- Style Personalizado -->
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/uikit/uikit.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="uk-container-expand">
+        <div class="uk-position-relative">
+            <img src="../img/covers/projects.jpg" alt="Background image for projects">
+            <div class="uk-position-bottom-center ">
+                <h1 class="uk-text-center uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+                    Our Projects
+                </h1>
+            </div>
+
+            <div class="uk-position-top">
+                <nav class="uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+                    uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a class="uk-navbar-item uk-logo" href="../../home.html"><img src="../img/icons/logo.svg"
+                                width="150" height="30" alt="Logo Nuclearis"></a>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="../../home.html">HOME</a></li>
+                            <li>
+                                <a href="#">COMPANY</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li class="uk-nav-divider"></li>
+                                        <li><a href="manufacturing.html">Manufacturing</a></li>
+                                        <li><a href="engineering.html">Engineering</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">CERTIFICATIONS</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="asmenpt.html">Asme NPT</a></li>
+                                        <li><a href="organization.html">Material Organization</a></li>
+                                        <li><a href="quality.html">Quality ISO</a></li>
+                                        <li><a href="sustainability.html">Sustainability</a>
+                                        </li>
+                                        <li><a href="compliance.html">Compliance</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="blockchain.html">BLOCKCHAIN NUCLEAR</a></li>
+                            <li><a href="projects.html" class="active">PROJECTS</a></li>
+                            <li>
+                                <a href="projects.html"><img src="../img/icons/english.webp" class="idiom"
+                                        alt="English language flag"> English</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="../paginas/proyectos.html"><img src="../img/icons/spanish.webp" class="idiom" alt="Spanish language flag"> Español</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right mobile">
+                        <ul class="uk-navbar-nav">
+                            <a uk-toggle="target: #offcanvas-nav-primary"><img src="../img/icons/menu.svg"
+                                    alt="Menu Mobile"></a>
+                            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                                    <ul uk-accordion>
+                                        <a class="uk-accordion-title uk-text-small"
+                                            href="../../home.html">Home</a>
+                                        <li>
+                                            <a class="uk-accordion-title uk-text-small" href="#">Company</a>
+                                            <div class="uk-accordion-content uk-flex uk-flex-column">
+                                                <a href="about.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">About Us</a>
+                                                <a href="manufacturing.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Manufacturing</a>
+                                                <a href="engineering.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Engineering</a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="uk-accordion-title uk-text-small" href="#">Certifications</a>
+                                            <div class="uk-accordion-content uk-flex uk-flex-column">
+                                                <a href="asmenpt.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
+                                                    NPT</a>
+                                                <a href="organization.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material
+                                                    Organization</a>
+                                                <a href="quality.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Quality ISO</a>
+                                                <a href="sustainability.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustainability</a>
+                                                <a href="compliance.html"
+                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
+                                            </div>
+                                        </li>
+                                        <a class="uk-accordion-title uk-text-small"
+                                            href="blockchain.html">Blockchain Nuclear</a>
+                                            <a class="uk-accordion-title uk-text-small" href="projects.html">Projects</a>
+                                            <li>
+                                                <a class="uk-accordion-title uk-text-small" href="projects.html"><img
+                                                        src="../img/icons/english.webp" class="idiom"
+                                                        alt="English language flag"> English</a>
+                                                <div class="uk-accordion-content uk-flex uk-flex-column">
+                                                    <a href="../paginas/proyectos.html"
+                                                        class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small"><img
+                                                            src="../img/icons/spanish.webp" class="idiom"
+                                                            alt="Spanish language flag"> Español</a>
+                                                </div>
+                                            </li>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="uk-container uk-container-expand uk-margin-large">
+
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/SLUGS COBALTO.jpg" loading="lazy"
+                                    alt="COBALT 59 SLUGS">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">COBALT 59 SLUGS</h3>
+                    <p>There are only 3 countries in the world that manufacture radioactive sources of Cobalt 60 used mainly for Radiotherapy (oncology) and other industrial applications. These countries are Russia, Canada and Argentina.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container16" uk-toggle>Read More</a>
+
+                    <div id="modal-container16" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">COBALT 59 SLUGS</h2>
+                            <p>To manufacture radioactive Cobalt 60 sources, first Cobalt 59 slugs must be made from 99.7% pure Cobalt metal powder. Then, these Co59 pellets are introduced into the core of a nuclear reactor to be bombarded by the neutron flux- produced by nuclear fission, thus acquiring an additional neutron and becoming Cobalt 60. NUCLEARIS is the only company in Latin America to set up the first Cobalt 59 Slugs manufacturing plant for nuclear use. These Cobalt slugs are currently being exported all over the world through DIOXITEK S.A- a state-owned company in Argentina. The radioactive Cobalt isotope with atomic weight 60 is an element that constantly emits radiation with a rate of decay. This decay is accompanied by the emission of high energy radiation known as Gamma Rays which are used to sterilize medical devices and implants, perform cancer treatments, sterilize food, disinfect fruits, vegetables and grains, inertization treatment of sewage sludge and many other industrial applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/ANILLOS DE CIERRE 2.jpg" loading="lazy" alt="SEAL RINGS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/ANILLOS DE CIERRE 3.jpg" loading="lazy" alt="SEAL RINGS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/ANILLOS DE CIERRE 1.jpg" loading="lazy" alt="SEAL RINGS">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">SEAL RINGS</h3>
+                    <p>NUCLEARIS is the supplier of seal rings for the Nuclear Power Plants Atucha I and II, two out of the three Nuclear Power Plants in Argentina.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container2" uk-toggle>Read More</a>
+
+                    <div id="modal-container2" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">SEAL RINGS</h2>
+                            <p>This is a Class 1 mechanical part that is introduced into the reactor core together with the Uranium rods and whose function is to seal the heavy water that circulates inside the Coolant Channels. Seal rings must resist for a whole year withstanding high pressure and temperature in addition to the direct neutron radiation resulting from nuclear fission. The ability of the rings to seal the water in the primary circuit depends on the resistance and adhesion of the pure silver coating that covers this high-precision metallic part. For this reason, NUCLEARIS successfully designed and built a silver electroplating machine that performs this critical process in an automated and robotically controlled fashion. For decades, these components were imported from Germany until 2010, when NUCLEARIS started to manufacture them in Argentina. Both Atucha Power Plants have been operating with a national supplier of nuclear quality for many years.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/ELECTROPLATEADORA DE COBALTO 1.jpg" loading="lazy"
+                                    alt="COBALT ELECTROPLATING SYSTEM">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">COBALT ELECTROPLATING SYSTEM</h3>
+                    <p>NUCLEARIS is the only company in Latin America that has a production line to manufacture Cobalt 59 pellets for nuclear use.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container4" uk-toggle>Read More</a>
+
+                    <div id="modal-container4" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">COBALT ELECTROPLATING SYSTEM</h2>
+                            <p>One of the production processes involves the electrolytic coating of high-purity Nickel with a precision of a few microns. NUCLEARIS designed and built an automatic machine that performs this process by means of a state-of-the-art FANUC robot- with 6 degrees of freedom- that provides maximum versatility, reliability, and speed during production. As for the electroplating pans, NUCLEARIS implemented the use of independent polypropylene units containing the chemical solutions specially formulated to perform the coating of high-purity compacted Cobalt cores. The chemical solutions used by NUCLEARIS are part of a new range of sustainable products, which incorporate renewable and recycled raw materials, and which is possible thanks to the innovation and technological development of our electroplating chemical supplier from Switzerland.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/MANTEL 1.jpg" loading="lazy" alt="END FITTING - MANTEL">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MANTEL 2.jpg" loading="lazy" alt="END FITTING - MANTEL">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">END FITTING - MANTEL</h3>
+                    <p>NUCLEARIS has manufactured the Mantel components for the Atucha I & II reactors.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container5" uk-toggle>Read More</a>
+
+                    <div id="modal-container5" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">END FITTING - MANTEL</h2>
+                            <p>This Class 1 component is located in the lid of the reactor lid and is the part through which the fuel element enters. It interacts with the seal ring, which is also manufactured by NUCLEARIS. This piece was originally manufactured exclusively in Germany. Currently, NUCLEARIS has designed and started building an automatic machine that performs the two most important processes in the manufacture of this part. The first process is Hastelloy Cladding Welding, which consists of creating an inner coating of Hastelloy by means of automatic TIG welding. The second process is Hastelloy Cold Working, which consists of cold plastic deformation through an expanding tool that hardens the area where the Hastelloy was deposited. The machinery developed by NUCLEARIS performs the two processes described above automatically through a system controlled by CNC software.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/VÁLVULA DEL CIRCUITO PRIMARIO.jpg" loading="lazy"
+                                    alt="PRIMARY CIRCUIT VALVE">
+                            </li>
+                            <li>
+                                <img src="../img/projects/VÁLVULA DEL CIRCUITO PRIMARIO 2.jpg" loading="lazy"
+                                    alt="PRIMARY CIRCUIT VALVE">
+                            </li>
+                            <li>
+                                <img src="../img/projects/VÁLVULA DEL CIRCUITO PRIMARIO 3.jpg" loading="lazy"
+                                    alt="PRIMARY CIRCUIT VALVE">
+                            </li>
+                            <li>
+                                <img src="../img/projects/VÁLVULA DEL CIRCUITO PRIMARIO 4.jpg" loading="lazy"
+                                    alt="PRIMARY CIRCUIT VALVE">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">PRIMARY CIRCUIT VALVE</h3>
+                    <p>PHWR Nuclear Power Plants are pressurized heavy water reactors.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container14" uk-toggle>Read More</a>
+
+                    <div id="modal-container14" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">PRIMARY CIRCUIT VALVE</h2>
+                            <p>The Atucha Power Plants of KWU Siemens were designed in Germany in the 1970's. Nowadays, some spare parts are no longer manufactured in their country of origin. The fact that a variety of mechanical components have been discontinued by the original European manufacturers has given NUCLEARIS the possibility to develop them locally. In the case of Atucha II refueling machine, there are dozens of valves that handle radioactive heavy water circuits and are exposed to severe operating conditions. Such special valves are no longer available in the world market and that is why NUCLEARIS has carried out the reverse engineering and,} subsequently manufactured several prototypes that were tested by Nucleoeléctrica Argentina S.A. until they finally passed all the nuclear qualifications. It is worth mentioning that the manufacturing of this valve required a 2-year development effort and involved suppliers of special metallic materials, tests in specialized laboratories, and the work of several specialists in Materials Science. NUCLEARIS is currently the only supplier worldwide of this important Class 1 mechanical component, which is vital for the operation of the Atucha II power plant.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/CAPSULAS DE COBALTO 1.jpg" loading="lazy"
+                                    alt="MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL">
+                            </li>
+                            <li>
+                                <img src="../img/projects/CAPSULAS DE COBALTO 2.jpg" loading="lazy"
+                                    alt="MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL">
+                            </li>
+                            <li>
+                                <img src="../img/projects/CAPSULAS DE COBALTO 3.jpg" loading="lazy"
+                                    alt="MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL">
+                            </li>
+                            <li>
+                                <img src="../img/projects/CÁPSULAS DE COBALTO 4.jpg" loading="lazy"
+                                    alt="MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL</h3>
+                    <p>NUCLEARIS is a manufacturer of metallic capsules that act as containers for radioactive Cobalt sources.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container7" uk-toggle>Read more</a>
+
+                    <div id="modal-container7" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">MANUFACTURE OF CO60 CAPSULES -INDUSTRIAL AND MEDICINAL</h2>
+                            <p>These capsules are manufactured in stainless steel and have a precision of thousandths of a millimeter in their dimensional tolerances to guarantee their correct assembly. Once they are loaded with C060 inside, they are used for Gamma Ray ionizing applications in industrial processes as well as in oncology medical treatment implementations. Argentina is one of the 4 producers of Cobalt 60 in the world. This highly significant fact positions the Argentine nuclear industry at a global level and demonstrates the excellence of the products manufactured with local technology and highly qualified local labor. Most of the Cobalt 60 produced by NUCLEARIS is exported to different countries around the world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/DISCOS DE ENCODERS 1.jpg" loading="lazy"
+                                    alt="REFUELING MACHINE ENCODER DISCS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DISCOS DE ENCODERS 2.jpg" loading="lazy"
+                                    alt="REFUELING MACHINE ENCODER DISCS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DISCOS DE ENCODERS 4.jpg" loading="lazy"
+                                    alt="REFUELING MACHINE ENCODER DISCS">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">REFUELING MACHINE ENCODER DISCS</h3>
+                    <p>NUCLEARIS, in collaboration with a high-precision mechanical part manufacturer, developed the manufacturing of electromechanical encoder discs used for the positioning of the Uraniumfuel for the refueling machine of Atucha II Nuclear Power Plant.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container3" uk-toggle>Read more</a>
+
+                    <div id="modal-container3" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">REFUELING MACHINE ENCODER DISCS</h2>
+                            <p>This telemanipulated machine is in charge of extracting the burnt fuels and introducing the new fuels inside the Nuclear Power Plant vessel. In addition to the complex geometry and high precision, these discs have a first coating of pure silver and a second electrolytic coating of 24Klts Gold that ensure optimal electrical conductivity for the transmission of signals. These rotating disks are part of the encoders that convert an electrical signal into linear position information, an extremely vital task for the operation of the plant. Modern optical encoders cannot be used inside a nuclear reactor because the electronic microcomponents cannot withstand neutron radiation, so electromechanical systems must be used instead. These encoders use several metal brushes, which function as "electrical contacts," that slide over the "stepped" disk. Thus, the brushes conduct the electrical signal through the metal areas but they do not conduct electricity through the areas where the plastic resin is located.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/SISTEMA DE SEGURIDAD AUTÓNOMO 1.jpg" loading="lazy"
+                                    alt="AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)">
+                            </li>
+                            <li>
+                                <img src="../img/projects/SISTEMA DE SEGURIDAD AUTÓNOMO 2.jpg" loading="lazy"
+                                    alt="AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)">
+                            </li>
+                            <li>
+                                <img src="../img/projects/SISTEMA DE SEGURIDAD AUTÓNOMO 3.jpg" loading="lazy"
+                                    alt="AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)">
+                            </li>
+                            <li>
+                                <img src="../img/projects/SISTEMA DE SEGURIDAD AUTÓNOMO 4.jpg" loading="lazy"
+                                    alt="AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)">
+                            </li>
+                            <li>
+                                <img src="../img/projects/SISTEMA DE SEGURIDAD AUTÓNOMO 5.jpg" loading="lazy"
+                                    alt="AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)</h3>
+                    <p>NUCLEARIS has developed the engineering, construction, assembly and fine-tuning of an intelligent system for handling burnt fuel elements stored in the SFPs of the Nuclear Power Plant Atucha I.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container6" uk-toggle>Read More</a>
+
+                    <div id="modal-container6" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">AUTONOMOUS SAFETY SYSTEM- SPENT FUEL POOLS (SFP)</h2>
+                            <p>These pools contain demineralized water which acts as a natural shield against radiation and it is where the Uranium rods are stored for decades until their activity diminishes to acceptable values. The automated system that NUCLEARIS has developed involves a multiplicity of sensors integrated with software that contains the information preloaded with the three-dimensional geometry of the thousands of fuels that are housed in the pools. The system recognizes the position, weight and size of the fuels being handled below the water level and thus avoids possible collisions with any of the submerged objects and fuel assemblies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/FLOTADORES 0.jpg" loading="lazy" alt="ATUCHA POOL FLOAT SWITCHES">
+                            </li>
+                            <li>
+                                <img src="../img/projects/FLOTADORES 1.jpg" loading="lazy" alt="ATUCHA POOL FLOAT SWITCHES">
+                            </li>
+                            <li>
+                                <img src="../img/projects/FLOTADORES 2.png" loading="lazy" alt="ATUCHA POOL FLOAT SWITCHES">
+                            </li>
+                            <li>
+                                <img src="../img/projects/FLOTADORES 4.png" loading="lazy" alt="ATUCHA POOL FLOAT SWITCHES">
+                            </li>
+                            <li>
+                                <img src="../img/projects/FLOTADORES 5.png" loading="lazy" alt="ATUCHA POOL FLOAT SWITCHES">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">ATUCHA POOL FLOAT SWITCHES</h3>
+                    <p>NUCLEARIS has redesigned and manufactured the float switches for the Spent Fuel Pools- where burned Uranium fuel elements are stored.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container8" uk-toggle>Read More</a>
+
+                    <div id="modal-container8" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">ATUCHA POOL FLOAT SWITCHES</h2>
+                            <p>These pieces manufactured by NUCLEARIS in polypropylene replaced the original ones coming from Germany in the 1970s (originally made of polyethylene). These plastic components regulate the level of demineralized water contained in the pools where the Uranium rods must complete the first decay cycle after their period of use inside the Reactor. We used imported polypropylene plates welded with the same material in the manufacturing process. Consequently, the joint stiffness and resistance of the welded joints had to be tested to verify the quality of the welding process. These assembled components are currently functioning at the Nuclear Power Plant Atucha I in Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/PLENUM CAREM 1.jpg" loading="lazy" alt="CAREM PLENUM CONSTRUCTION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/PLENUM CAREM 2.png" loading="lazy" alt="CAREM PLENUM CONSTRUCTION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/PLENUM CAREM 3.jpg" loading="lazy" alt="CAREM PLENUM CONSTRUCTION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/PLENUM CAREM 4.jpg" loading="lazy" alt="CAREM PLENUM CONSTRUCTION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/PLENUM CAREM 5.png" loading="lazy" alt="CAREM PLENUM CONSTRUCTION">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">CAREM PLENUM CONSTRUCTION</h3>
+                    <p>NUCLEARIS has manufactured a mock-up of a component of the CAREM25 Reactor called "Plenum."</p>
+                    <a class="uk-button uk-button-default" href="#modal-container9" uk-toggle>Read More</a>
+
+                    <div id="modal-container9" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">CAREM PLENUM CONSTRUCTION</h2>
+                            <p>This full-size model was requested by the CNEA (National Atomic Energy Commission) for the manipulation tests- carried out by a robot- to inspect the steam generators during the maintenance shutdowns of the nuclear reactor. Plenum not only represents an innovation in this type of SMR reactor but it is also a  critical element of this Nuclear Power Plant since it is where the water from the secondary circuit is injected in liquid phase to be converted into steam when it circulates through the steam generator. The steam produced then returns to Plenum to be redirected to the turbine linked to the electric generator. This mechanical component built by NUCLEARIS weighs about 2 tons and is installed in the workshops of the Bariloche Atomic Center.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/MICROSCOPIO LEITZ 1.jpg" loading="lazy"
+                                    alt="LEITZ MICROSCOPE AUTOMATION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MICROSCOPIO LEITZ 2.jpg" loading="lazy"
+                                    alt="LEITZ MICROSCOPE AUTOMATION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MICROSCOPIO LEITZ 3.jpg" loading="lazy"
+                                    alt="LEITZ MICROSCOPE AUTOMATION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MICROSCOPIO LEITZ 4.jpg" loading="lazy"
+                                    alt="LEITZ MICROSCOPE AUTOMATION">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MICROSCOPIO LEITZ 5.jpg" loading="lazy"
+                                    alt="LEITZ MICROSCOPE AUTOMATION">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">LEITZ MICROSCOPE AUTOMATION</h3>
+                    <p>NUCLEARIS performed the automation of a microscope for the metallography of irradiated materials.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container10" uk-toggle>Read More</a>
+
+                    <div id="modal-container10" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">LEITZ MICROSCOPE AUTOMATION</h2>
+                            <p>This metallographic microscope is installed at the Ezeiza Atomic Center, specifically in the Hot Cells (the word "hot" refers to radioactivity). There are only two of these microscopes in the world, one located in Argentina and the other in a nuclear laboratory in Germany. NUCLEARIS was hired by the IAEA (International Atomic Energy Agency) to perform its automation and control system refurbishment. It is an optical microscope used to perform metallographic studies- magnification up to 1000X- of irradiated metals in Nuclear Power Plants and to study the changes in used nuclear materials in Post-Irradiation Examination.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 1.png" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 2.png" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 3.png" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 4.png" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 5.jpg" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 6.jpg" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                            <li>
+                                <img src="../img/projects/DESALINIZADOR 7.png" loading="lazy" alt="NUCLEAR DESALINATOR">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">NUCLEAR DESALINATOR</h3>
+                    <p>Fresh water is a precious commodity. Many countries suffer from water shortages because of insufficient surface rainfall.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container11" uk-toggle>Read more</a>
+
+                    <div id="modal-container11" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">NUCLEAR DESALINATOR</h2>
+                            <p>As the world population grows, new sources of water must be found. Consequently, seawater desalination methods are becoming increasingly important. According to the IAEA, nuclear desalination is a viable option to meet the growing demand for drinking water. The CAREM25 project involves a thermal desalination system through the implementation of a modern and innovative plate heat exchanger developed by CNEA. Its highly efficient operating concept makes it a ground-breaking technology. NUCLEARIS won the bid to design and implement the Basic and Detailed Engineering of the evaporator based on CNEA's Conceptual Engineering. In addition, NUCLEARIS built a small functional prototype to corroborate the correct functioning of the basic operating principle of "evaporation under vacuum."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/CABEZAL DE IRRADIACIÓN 1.jpg" loading="lazy"
+                                    alt="RA-10 IRRADIATION HEAD">
+                            </li>
+                            <li>
+                                <img src="../img/projects/CABEZAL DE IRRADIACIÓN 2.jpg" loading="lazy"
+                                    alt="RA-10 IRRADIATION HEAD">
+                            </li>
+                            <li>
+                                <img src="../img/projects/CABEZAL DE IRRADIACIÓN 3.jpg" loading="lazy"
+                                    alt="RA-10 IRRADIATION HEAD">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">RA-10 IRRADIATION HEAD</h3>
+                    <p>NUCLEARIS has developed the detailed engineering and has carried out the construction of an Irradiation Head for the new multipurpose nuclear research reactor called RA-10 for the National Atomic Energy Commission.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container" uk-toggle>Read More</a>
+
+                    <div id="modal-container" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">RA-10 IRRADIATION HEAD</h2>
+                            <p>Uranium rods are installed inside this device which remains inside the nuclear reactor in order to evaluate the thermal and neutronic behavior of the fuel rods to be tested. This capability of the RA-10 reactor will allow Argentina to become independent from the only supplier, located in Europe, that performs this type of nuclear test in the world. The RA-10 reactor was designed as a multipurpose facility suitable for radioisotope production, irradiation of materials and fuels, neutron technique applications, and silicon doping. Its design is based on SEU (slightly enriched uranium) fuel elements and complies with Argentine Safety Standards and International Atomic Energy Agency (IAEA) Standards. NUCLEARIS was in charge of the design, engineering, calculation and verification by the finite element method, the mechanized manufacturing of the mechanical components, and the assembly and qualified welding with nuclear quality materials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/GRILLAS 1.png" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 2.jpg" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 3.jpg" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 4.png" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 5.png" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 6.jpg" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                            <li>
+                                <img src="../img/projects/GRILLAS 7.png" loading="lazy"
+                                    alt="GRIDS FOR RADIOACTIVE COBALT PENCILS">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">GRIDS FOR RADIOACTIVE COBALT PENCILS</h3>
+                    <p>NUCLEARIS has manufactured the devices called Grids for the handling and storage of Cobalt 60 sources for DIOXITEK, a state-owned company in charge of the manufacturing of this radioactive element used in multiple medical and industrial applications.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container12" uk-toggle>Read More</a>
+
+                    <div id="modal-container12" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">GRIDS FOR RADIOACTIVE COBALT PENCILS</h2>
+                            <p>Once the Co60 sources are extracted from the Embalse Power Plant, in the province of Córdoba, they are introduced into the Grids to be transported using lead containers that act as a radiation shield. Then, they are transported to the Ezeiza Atomic Center to be processed under the demineralized water pools. Subsequently, DIOXITEK distributes these sources of high technological added value both nationally and internationally.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/MECANIZADOS DE PRECISIÓN 1.jpg" loading="lazy"
+                                    alt="PRECISION MACHINING ENGINEERING">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MECANIZADOS DE PRECISIÓN 2.jpg" loading="lazy"
+                                    alt="PRECISION MACHINING ENGINEERING">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MECANIZADOS DE PRECISIÓN 3.jpg" loading="lazy"
+                                    alt="PRECISION MACHINING ENGINEERING">
+                            </li>
+                            <li>
+                                <img src="../img/projects/MECANIZADOS DE PRECISIÓN 4.jpg" loading="lazy"
+                                    alt="PRECISION MACHINING ENGINEERING">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">PRECISION MACHINING ENGINEERING</h3>
+                    <p>Since NUCLEARIS is assisted by a qualified network of suppliers specialized in precision machining engineering, we are able to offer our nuclear customers our ability to accurately follow drawings which normally include exhaustive technical specifications about special materials and heat treatments, and, in some cases, electrolytic coatings designed for each particular application.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container13" uk-toggle>Read More</a>
+
+                    <div id="modal-container13" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">PRECISION MACHINING ENGINEERING</h2>
+                            <p>The mechanical parts service offered by NUCLEARIS involves precision machining engineering combined with CNC machining, EDM, and wire-cutting machinery. We have a team of specialized technicians and we use state-of-the-art machinery to obtain the expected quality results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+            <div class="uk-card-media-left uk-cover-container">
+                <div uk-slider>
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slider-items uk-child-width-1-1">
+                            <li>
+                                <img src="../img/projects/PULIDORA 1.jpg" loading="lazy"
+                                    alt="POLISHING MACHINE FOR ELECTROLYTIC COATINGS">
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous
+                            uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next
+                            uk-slider-item="next"></a>
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-position-bottom-center"></ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">POLISHING MACHINE FOR ELECTROLYTIC COATINGS</h3>
+                    <p>NUCLEARIS has developed a high-precision polishing machine that is used in parts with revolution geometries. Moreover, this machine allows us to perform the final process on those parts with electrolytic coatings of gold, silver, nickel and other metals.</p>
+                    <a class="uk-button uk-button-default" href="#modal-container15" uk-toggle>Read More</a>
+
+                    <div id="modal-container15" class="uk-modal-container" uk-modal>
+                        <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                            <button class="uk-modal-close-default" type="button" uk-close></button>
+                            <h2 class="uk-modal-title">POLISHING MACHINE FOR ELECTROLYTIC COATINGS</h2>
+                            <p>The main product we process in this polishing machine is the Seal Rings that have a pure Silver layer of 80 microns thick, which we supply to the Nuclear Power Plants Atucha I and II in Argentina.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="uk-padding-large uk-padding-remove-bottom">
+        <img src="../img/icons/logo-footer.svg" alt="Footer Logo">
+        <div class="uk-column-1-2">
+            <div class="dire">
+                <p class="uk-margin-remove">General Balcarce 160</p>
+                <p class="uk-margin-remove">Villa Martelli, Buenos Aires</p>
+                <p class="uk-margin-remove">Argentina 1603</p>
+            </div>
+            <div class="info">
+                <p class="uk-margin-remove">+54 11 5263-2700</p>
+                <p class="uk-margin-remove">info@nuclearis.com</p>
+            </div>
+        </div>
+        <hr>
+        <h6 class="uk-text-center uk-text-bolder uk-margin-remove-bottom uk-margin-remove-top">© 2022. Nuclearis - All rights reserved.</h6>
+    </footer>
+
+    <!-- Uikit -->
+    <script src="../js/uikit.min.js"></script>
+</body>
+
+</html>

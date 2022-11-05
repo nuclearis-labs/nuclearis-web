@@ -2,6 +2,10 @@
 *{
     font-family: 'Ubuntu', sans-serif !important;
 }
+.idiom{
+    width: 22px;
+    margin-right: 5px;
+}
 /* NAVBAR */
 @media (max-width: 550px){
     body > div > div > div > nav > div.uk-navbar-right.mobile > ul > a{
@@ -55,12 +59,4 @@ body > div:nth-child(1) > div > div.uk-position-top > nav > div:nth-child(2) > u
 }
 #offcanvas-nav-primary > div > ul > hr{
     background-color: #0798B6;
-}
-
-/* Noticias disable */
-#offcanvas-nav-primary > div > ul > a:nth-child(5){
-    display: none;
-}
-body > div > div > div > nav > div:nth-child(2) > ul > li:nth-child(5) > a{
-    display: none;
 }

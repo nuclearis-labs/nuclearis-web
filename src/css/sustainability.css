@@ -1,0 +1,90 @@
+body{
+    text-align: justify !important;
+}
+/* Titulo */
+body > div > div > img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(30%);
+}
+body > div > div > div > h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 34px !important;
+    line-height: 30px !important;
+}
+body > div > div > div.uk-position-bottom-center > a{
+    display: block;
+    margin-bottom: 20px;
+    color: #0798B6;
+}
+body > div:nth-child(1) > div > div.uk-position-bottom-center > h1 > span{
+    font-size: 18px;
+    font-weight: 300;
+}
+body > div:nth-child(2) > div > div > p{
+    color: #fff;
+}
+
+/* Certificación */
+body > div:nth-child(2){
+    background: linear-gradient(180deg, #416567 0%, #1C2D2E 100%);
+}
+
+body > div:nth-child(2) > div > div.uk-child-width-expand > h2{
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
+    font-weight: 700;
+    margin-top: 10px;
+}
+#modal-container2 > div > h2{
+    font-weight: 700;
+    color: #416567;
+}
+.button-black{
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 25px;
+}
+.button-black:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 700px){
+    body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
+        font-size: 24px !important;
+    }
+}
+@media (max-width: 448px){
+    body > div:nth-child(1) > div > img{
+        height: 50vh;
+    }
+    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1{
+        font-size: 24px !important;
+    }
+    #modal-container2 > div > h2{
+        font-size: 22px;
+    }
+}
+@media (max-width: 300px){
+    body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
+        font-size: 20px !important;
+        padding: 10px;
+    }
+    body > div:nth-child(2) > div > div.uk-child-width-expand > h2{
+        font-size: 14px !important;
+    }
+    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1 > span{
+        font-size: 14px !important;
+    }
+}
