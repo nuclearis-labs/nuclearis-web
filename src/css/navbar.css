@@ -1,6 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Lekton-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Lekton-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
 *{
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Ubuntu' !important;
 }
 .idiom{
     width: 22px;
@@ -35,7 +46,7 @@ body > div > div > div > nav > div.uk-navbar-right > ul > li > a.active{
 body > div > div > div > nav > div.uk-navbar-right > ul > li > a{
     min-height: 30px; 
     color: #fff !important;
-    font-weight: bold;
+    font-weight: 700;
     padding-left: 8px;
     padding-right: 8px;
     margin-right: 8px;

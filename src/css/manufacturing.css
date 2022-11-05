@@ -34,7 +34,7 @@ body > div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-
 }
 body > div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid > div:nth-child(2) > div > p{
     color: rgb(47, 47, 47);
-    font-weight: 500;
+    font-weight: 700;
 }
 body > div:nth-child(3){
     background: linear-gradient(180deg, #0798B6 0%, #00778F 100%);
