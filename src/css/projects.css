@@ -1,6 +1,10 @@
 body{
     text-align: justify !important;
 }
+body > div.uk-container.uk-container-expand.uk-margin-large{
+    max-width: 1200px;
+}
+
 /* Titulo */
 body > div > div > img{
     width: 100%;
