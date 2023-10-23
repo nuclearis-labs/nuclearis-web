@@ -18,156 +18,160 @@
 <body>
 
     <!-- NAVBAR -->
-    <div class="uk-container-expand">
-        <div class="uk-position-relative">
-            <img src="../img/covers/manufacturing-main.jpg" alt="Nuclear manufacturing process with machines">
-            <div class="uk-position-bottom-center ">
-                <h1 class="uk-text-center uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top">
-                    Manufacturing
-                </h1>
-            </div>
+    <header class="uk-container-expand uk-position-relative">
+        <img src="../img/covers/manufacturing-main.webp" alt="Nuclear manufacturing process with machines">
+        <h1
+            class="uk-position-bottom-center uk-text-center uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top">
+            Manufacturing
+        </h1>
 
-            <div class="uk-position-top">
-                <nav class="uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
-                    uk-navbar>
-                    <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo" href="../../index.html"><img src="../img/icons/logo.svg" width="150" height="30" alt="Logo Nuclearis"></a>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav">
-                            <li><a href="../../index.html">HOME</a></li>
-                            <li>
-                                <a href="#" class="active">COMPANY</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="manufacturing.html">Manufacturing</a></li>
-                                        <li><a href="engineering.html">Engineering</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">CERTIFICATIONS</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="asmenpt.html">Asme NPT</a></li>
-                                        <li><a href="organization.html">Material Organization</a></li>
-                                        <li><a href="quality.html">Quality ISO</a></li>
-                                        <li><a href="sustainability.html">Sustainability</a></li>
-                                        <li><a href="compliance.html">Compliance</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="blockchain.html">BLOCKCHAIN NUCLEAR</a></li>
-                            <li><a href="projects.html">PROJECTS</a></li>
-                            <li>
-                                <a href="manufacturing.html"><img src="../img/icons/english.webp" class="idiom"
-                                        alt="English language flag"> English</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="../paginas/fabricacion.html"><img src="../img/icons/spanish.webp" class="idiom" alt="Spanish language flag"> Español</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="uk-navbar-right mobile">
-                        <ul class="uk-navbar-nav">
-                            <a uk-toggle="target: #offcanvas-nav-primary"><img src="../img/icons/menu.svg" alt="Menu Mobile"></a>
-                            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-                                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-                                    <ul uk-accordion>
-                                        <a class="uk-accordion-title uk-text-small"
-                                            href="../../index.html">Home</a>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="#">Company</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="about.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">About Us</a>
-                                                <a href="manufacturing.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Manufacturing</a>
-                                                <a href="engineering.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Engineering</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="#">Certifications</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="asmenpt.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
-                                                    NPT</a>
-                                                <a href="organization.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material Organization</a>
-                                                <a href="quality.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Quality ISO</a>
-                                                <a href="sustainability.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustainability</a>
-                                                <a href="compliance.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
-                                            </div>
-                                        </li>
-                                        <a class="uk-accordion-title uk-text-small"
-                                            href="blockchain.html">Blockchain Nuclear</a>
-                                        <a class="uk-accordion-title uk-text-small" href="projects.html">Projects</a>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="manufacturing.html"><img
-                                                    src="../img/icons/english.webp" class="idiom"
-                                                    alt="English language flag"> English</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="../paginas/fabricacion.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small"><img
-                                                        src="../img/icons/spanish.webp" class="idiom"
-                                                        alt="Spanish language flag"> Español</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </nav>
+        <nav class="uk-position-top uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+            uk-navbar>
+            <a class="uk-navbar-item uk-logo" href="../../index.html"><img src="../img/icons/logo.svg" width="150"
+                    height="30" alt="Logo Nuclearis"></a>
+            <div class="uk-navbar-right nav-web">
+                <ul class="uk-navbar-nav navbar-margin-top">
+                    <li><a href="../../index.html">HOME</a></li>
+                    <li>
+                        <a href="#" class="active">COMPANY</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="about.html">About Us</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="manufacturing.html">Manufacturing</a></li>
+                                <li><a href="engineering.html">Engineering</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">CERTIFICATIONS</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="asmenpt.html">Asme NPT</a></li>
+                                <li><a href="organization.html">Material Organization</a></li>
+                                <li><a href="quality.html">Quality ISO</a></li>
+                                <li><a href="sustainability.html">Sustainability</a></li>
+                                <li><a href="compliance.html">Compliance</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blockchain.html">BLOCKCHAIN NUCLEAR</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li>
+                        <a href="manufacturing.html"><img src="../img/icons/english.webp" class="idiom"
+                                alt="English language flag"> English</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="../paginas/fabricacion.html"><img src="../img/icons/spanish.webp"
+                                            class="idiom" alt="Spanish language flag"> Español</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </div>
+            <div class="uk-navbar-right mobile nav-mobile">
+                <ul class="uk-navbar-nav">
+                    <a uk-toggle="target: #offcanvas-nav-primary"><img src="../img/icons/menu.svg"
+                            alt="Menu Mobile"></a>
+                    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                            <ul uk-accordion>
+                                <a class="uk-accordion-title uk-text-small" href="../../index.html">Home</a>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="#">Company</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="about.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">About
+                                            Us</a>
+                                        <a href="manufacturing.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Manufacturing</a>
+                                        <a href="engineering.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Engineering</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="#">Certifications</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="asmenpt.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
+                                            NPT</a>
+                                        <a href="organization.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material
+                                            Organization</a>
+                                        <a href="quality.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Quality
+                                            ISO</a>
+                                        <a href="sustainability.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustainability</a>
+                                        <a href="compliance.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
+                                    </div>
+                                </li>
+                                <a class="uk-accordion-title uk-text-small" href="blockchain.html">Blockchain
+                                    Nuclear</a>
+                                <a class="uk-accordion-title uk-text-small" href="projects.html">Projects</a>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="manufacturing.html"><img
+                                            src="../img/icons/english.webp" class="idiom" alt="English language flag">
+                                        English</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="../paginas/fabricacion.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small"><img
+                                                src="../img/icons/spanish.webp" class="idiom"
+                                                alt="Spanish language flag"> Español</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- MANUFACTURING -->
-    <div class="uk-grid-collapse uk-child-width-1-2@s uk-margin uk-padding-large uk-flex-middle" uk-grid>
+    <section class="uk-grid uk-child-width-1-2@s uk-margin uk-padding-large uk-flex-middle" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
-            <img src="../img/covers/manufacturing-secundary.jpg" width="1800" height="1200"
-                alt="Nuclearis team work">
+            <img src="../img/covers/manufacturing-secundary.webp" width="1800" height="1200" alt="Nuclearis team work">
         </div>
-        <div>
-            <div class="uk-card-body uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
-                <p class="uk-margin-remove-top">At Nuclearis, innovation is considered our main premise- it stands at our very core. Furthermore, we specialize in providing technological solutions designed to cater to our clients’ needs and expectations in the nuclear field.
-                    <br>
-                    At Nuclearis, we design and build our own production lines which perform very specific and extremely complex processes that require robotized and automated systems.
-                </p>
-                <a href="#modal-container2" class="button-black" uk-toggle>Read More</a>
-                <div id="modal-container2" class="uk-modal-container" uk-modal>
-                    <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
-                        <button class="uk-modal-close-default" type="button" uk-close></button>
-                        <h2 class="uk-modal-title">Manufacturing</h2>
-                        <p>
-                            Our highly skilled team is composed of a remarkable group of engineers from different disciplines with extensive experience and training in automatic machinery design, high-precision mechanical components, complex robotized mechanisms, metal 3D printing and electrolytic coatings of special alloys.
-                            <br>
-                            Our engineers manage the projects following the procedures of our quality assurance management system meticulously and provide appropriate solutions in each case:
-                            <br>
-                            · Identification of needs and development of the conceptual design of the machinery to be created.
-                            <br>
-                            · 3D modeling, calculation, simulation and detail engineering.
-                            <br>
-                            · Mechanical parts production outsourcing to qualified suppliers and manufacturing process tracking.
-                            <br>
-                            · Mechanical assembly and set-up as well as automation execution.
-                            <br>
-                            · Technical support and warranty service
-                        </p>
-                    </div>
+        <div class="uk-card-body uk-padding-remove-right uk-padding-remove-top uk-padding-remove-bottom">
+            <p class="uk-margin-remove-top">At Nuclearis, innovation is considered our main premise- it stands at
+                our very core. Furthermore, we specialize in providing technological solutions designed to cater to
+                our clients’ needs and expectations in the nuclear field.
+                <br>
+                At Nuclearis, we design and build our own production lines which perform very specific and extremely
+                complex processes that require robotized and automated systems.
+            </p>
+            <a href="#modal-container2" class="button-black" uk-toggle>Read More</a>
+            <div id="modal-container2" class="uk-modal-container" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body" uk-overflow-auto>
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <h2 class="uk-modal-title">Manufacturing</h2>
+                    <p>
+                        Our highly skilled team is composed of a remarkable group of engineers from different
+                        disciplines with extensive experience and training in automatic machinery design,
+                        high-precision mechanical components, complex robotized mechanisms, metal 3D printing and
+                        electrolytic coatings of special alloys.
+                        <br>
+                        Our engineers manage the projects following the procedures of our quality assurance
+                        management system meticulously and provide appropriate solutions in each case:
+                        <br>
+                        · Identification of needs and development of the conceptual design of the machinery to be
+                        created.
+                        <br>
+                        · 3D modeling, calculation, simulation and detail engineering.
+                        <br>
+                        · Mechanical parts production outsourcing to qualified suppliers and manufacturing process
+                        tracking.
+                        <br>
+                        · Mechanical assembly and set-up as well as automation execution.
+                        <br>
+                        · Technical support and warranty service
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="uk-padding-large uk-padding-remove-bottom">
@@ -184,12 +188,13 @@
             </div>
         </div>
         <hr>
-        <h6 class="uk-text-center uk-text-bolder uk-margin-remove-bottom uk-margin-remove-top">© 2022. Nuclearis - All rights reserved.</h6>
+        <h6 class="uk-text-center uk-text-bolder uk-margin-remove-bottom uk-margin-remove-top">© 2022. Nuclearis - All
+            rights reserved.</h6>
     </footer>
 
-    <!-- Uikit -->
+    <!-- UIKIT -->
     <script src="../js/uikit.min.js"></script>
-    
+
 </body>
 
 </html>
