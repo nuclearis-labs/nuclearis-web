@@ -18,123 +18,115 @@
 <body>
 
     <!-- NAVBAR -->
-    <div class="uk-container-expand">
-        <div class="uk-position-relative">
-            <video src="src/video/video.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
-            <h1 class="uk-position-center-left uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top"
-                style="top: calc(40% - var(--uk-position-margin-offset)) !important;">NUCLEARIS es una empresa dedicada
-                a
-                <br>la Ingeniería y fabricación de componentes
-                <br>mecánicos para la <span class="uk-text-bolder">industria nuclear.</span>
-                <br>
-                <p>Certificación ASME III Nuclear NPT & MO</p>
-                <img src="src/img/icons/asme-logo.svg" alt="Logo certificación Asme 3 Nuclear">
-            </h1>
-            <div class="uk-position-top">
-                <nav class="uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
-                    uk-navbar>
-                    <div class="uk-navbar-left">
-                        <a class="uk-navbar-item uk-logo" href="#"><img src="src/img/icons/logo.svg" width="150"
-                                height="30" alt="Logo Nuclearis"></a>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav">
-                            <li><a href="inicio.html" title="index" class="active">INICIO</a></li>
-                            <li>
-                                <a href="#">EMPRESA</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="src/paginas/nosotros.html">Nosotros</a></li>
-                                        <li class="uk-nav-divider"></li>
-                                        <li><a href="src/paginas/fabricacion.html">Fabricación</a></li>
-                                        <li><a href="src/paginas/ingenieria.html">Ingeniería</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="#">CERTIFICACIONES</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="src/paginas/asmenpt.html">Asme NPT</a></li>
-                                        <li><a href="src/paginas/organization.html">Material Organization</a></li>
-                                        <li><a href="src/paginas/calidad.html">Calidad ISO</a></li>
-                                        <li><a href="src/paginas/sustentabilidad.html">Sustentabilidad</a></li>
-                                        <li><a href="src/paginas/compliance.html">Compliance</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li><a href="src/paginas/blockchain.html">BLOCKCHAIN NUCLEAR</a></li>
-                            <li>
-                                <a href="src/paginas/proyectos.html">PROYECTOS</a>
-                            </li>
-                            <li>
-                                <a href="inicio.html"><img src="src/img/icons/spanish.webp" class="idiom"
-                                        alt="Bandera de idioma español"> Español</a>
-                                <div class="uk-navbar-dropdown">
-                                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                                        <li><a href="index.html"><img src="src/img/icons/english.webp" class="idiom" alt="Bandera de idioma ingles"> English</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="uk-navbar-right mobile">
-                        <ul class="uk-navbar-nav">
-                            <a uk-toggle="target: #offcanvas-nav-primary"><img src="src/img/icons/menu.svg"
-                                    alt="Menu icono"></a>
-                            <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-                                <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-                                    <ul uk-accordion>
-                                        <a class="uk-accordion-title uk-text-small" href="inicio.html">Inicio</a>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="#">Empresa</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="src/paginas/nosotros.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Nosotros</a>
-                                                <a href="src/paginas/fabricacion.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Fabricación</a>
-                                                <a href="src/paginas/ingenieria.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Ingeniería</a>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="#">Certificaciones</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="src/paginas/asmenpt.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
-                                                    NPT</a>
-                                                <a href="src/paginas/organization.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material
-                                                    Organization</a>
-                                                <a href="src/paginas/calidad.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Calidad
-                                                    ISO</a>
-                                                <a href="src/paginas/sustentabilidad.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustentabilidad</a>
-                                                <a href="src/paginas/compliance.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
-                                            </div>
-                                        </li>
-                                        <a class="uk-accordion-title uk-text-small"
-                                            href="src/paginas/blockchain.html">Blockchain Nuclear</a>
-                                        <a class="uk-accordion-title uk-text-small"
-                                            href="src/paginas/proyectos.html">Proyectos</a>
-                                        <li>
-                                            <a class="uk-accordion-title uk-text-small" href="inicio.html"><img src="src/img/icons/spanish.webp" class="idiom" alt="Bandera idioma español"> Español</a>
-                                            <div class="uk-accordion-content uk-flex uk-flex-column">
-                                                <a href="index.html"
-                                                    class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small"><img src="src/img/icons/english.webp" class="idiom" alt="Idioma bandera ingles"> English</a>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </ul>
-                    </div>
-                </nav>
+    <header class="uk-container-expand uk-position-relative">
+        <video src="src/video/video.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+        <h1 class="uk-position-center-left uk-text-large uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+            style="top: calc(40% - var(--uk-position-margin-offset)) !important;font-weight: 400;font-size: 1.5rem !important;">NUCLEARIS es una empresa dedicada a la
+            <br>Ingeniería y fabricación de componentes<br>mecánicos para la<b> industria nuclear.</b>
+            <p>ASME III Nuclear Certification</p>
+            <img src="src/img/icons/asme-logo.svg" alt="Logo certification Asme 3 Nuclear">
+        </h1>
+        <nav class="uk-position-top uk-navbar-container uk-navbar-transparent uk-padding uk-padding-remove-bottom uk-padding-remove-top"
+            uk-navbar>
+            <a class="uk-navbar-item uk-logo" href="index.html"><img src="src/img/icons/logo.svg" width="150"
+                    height="30" alt="Logo Nuclearis"></a>
+            <div class="uk-navbar-right nav-web">
+                <ul class="uk-navbar-nav navbar-margin-top">
+                    <li><a href="inicio.html" title="index" class="active">INICIO</a></li>
+                    <li>
+                        <a href="#">EMPRESA</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="src/paginas/nosotros.html">Nosotros</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="src/paginas/fabricacion.html">Fabricación</a></li>
+                                <li><a href="src/paginas/ingenieria.html">Ingeniería</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">CERTIFICACIONES</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="src/paginas/asmenpt.html">Asme NPT</a></li>
+                                <li><a href="src/paginas/organizacion.html">Material Organization</a></li>
+                                <li><a href="src/paginas/calidad.html">Calidad ISO</a></li>
+                                <li><a href="src/paginas/sustentabilidad.html">Sustentabilidad</a></li>
+                                <li><a href="src/paginas/compliance.html">Compliance</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="src/pages/blockchain.html">BLOCKCHAIN NUCLEAR</a>
+                    </li>
+                    <li>
+                        <a href="src/paginas/proyectos.html">PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href="inicio.html"><img src="src/img/icons/spanish.webp" class="idiom"
+                                alt="English language flag"> Español</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="index.html"><img src="src/img/icons/english.webp" class="idiom" alt="Spanish language flag"> English</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </div>
+            <div class="uk-navbar-right mobile nav-mobile">
+                <ul class="uk-navbar-nav">
+                    <a uk-toggle="target: #offcanvas-nav-primary"><img src="src/img/icons/menu.svg" alt="Menu mobile"></a>
+                    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+                            <ul uk-accordion>
+                                <a class="uk-accordion-title uk-text-small" href="index.html">Inicio</a>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="#">Empresa</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="src/paginas/nosotros.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Nosotros</a>
+                                        <a href="src/paginas/fabricacion.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Fabricación</a>
+                                        <a href="src/paginas/ingenieria.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Ingeniería</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="#">Certificaciones</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="src/paginas/asmenpt.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Asme
+                                            NPT</a>
+                                        <a href="src/paginas/organizacion.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Material
+                                            Organization</a>
+                                        <a href="src/paginas/calidad.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Calidad ISO</a>
+                                        <a href="src/paginas/sustentabilidad.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Sustentabilidad</a>
+                                        <a href="src/paginas/compliance.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small">Compliance</a>
+                                    </div>
+                                </li>
+                                <a class="uk-accordion-title uk-text-small" href="src/paginas/blockchain.html">Blockchain Nuclear</a>
+                                <a class="uk-accordion-title uk-text-small" href="src/paginas/proyectos.html">Proyectos</a>
+                                <li>
+                                    <a class="uk-accordion-title uk-text-small" href="inicio.html"><img
+                                            src="src/img/icons/spanish.webp" class="idiom" alt="English language flag"> Español</a>
+                                    <div class="uk-accordion-content uk-flex uk-flex-column">
+                                        <a href="index.html"
+                                            class="uk-padding-small uk-padding-remove-right uk-padding-remove-left uk-text-small"><img
+                                                src="src/img/icons/english.webp" class="idiom"
+                                                alt="Spanish language flag"> English</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <!-- Uikit -->
     <link rel="stylesheet" href="src/css/uikit/uikit.min.css">
