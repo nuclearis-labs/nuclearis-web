@@ -1,38 +1,9 @@
-body {
-    text-align: justify !important;
-}
-
-/* Titulo */
-body>div>div>img {
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    filter: brightness(30%);
-}
-
-body>div>div>div>h1 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 34px !important;
-}
-
-body>div>div>div.uk-position-bottom-center>a {
-    display: block;
-    margin-bottom: 20px;
-    color: #0798B6;
-}
-
 /* Blockchain Nuclear */
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-grid>div.uk-flex-last\@s.uk-card-media-right.uk-cover-container>a>img {
-    height: 100%;
-    filter: brightness(100%);
-}
-
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid>div.uk-flex-last\@s.uk-card-media-right.uk-cover-container>a>div {
+body>section>a>div {
     z-index: 1;
 }
 
-body>div:nth-child(2)>h1 {
+body>section:nth-child(2)>h1 {
     color: #416567;
 }
 
@@ -55,19 +26,19 @@ body>div:nth-child(2)>h1 {
     color: #416567;
 }
 
-body>div:nth-child(2)>p>a {
+body>section:nth-child(2)>p>a {
     color: #0798B6;
 }
 
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-grid {
+body>section.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-grid {
     background: linear-gradient(180deg, #0798B6 0%, #00778F 100%);
 }
 
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid>div.uk-first-column>div>p {
+body>section.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid>div.uk-first-column>p {
     color: #fff;
 }
 
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid>div.uk-first-column>div>h3 {
+body>section.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid>div.uk-first-column>h3 {
     color: #000;
 }
 
@@ -76,58 +47,57 @@ body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-fl
     font-weight: 700;
 }
 
-body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid {
+body>section.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid {
     margin-bottom: 0 !important;
 }
 
-body>div:nth-child(4) {
+body>section:nth-child(4) {
     background: #fff !important;
 }
 
-body>div:nth-child(6) {
+body>section:nth-child(6) {
     background: #fff !important;
 }
 
-body>div:nth-child(4)>div.uk-first-column>div>p {
+body>section:nth-child(4)>div.uk-first-column>p {
     color: rgb(47, 47, 47) !important;
 }
 
-body>div:nth-child(6)>div.uk-first-column>div>p {
+body>section:nth-child(6)>div.uk-first-column>p {
     color: rgb(47, 47, 47) !important;
 }
 
 /* Responsive */
 @media (max-width: 639px) {
-    body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid.uk-grid-stack>div.uk-first-column.uk-grid-margin>div>h3 {
+    body>section.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid.uk-grid-stack>div.uk-first-column.uk-grid-margin>h3 {
         margin-top: 25px;
-    }
-    body>div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid.uk-grid-stack>div.uk-first-column.uk-grid-margin>div>h3 {
-        margin-top: 25px;
-    }
-    body>div>div.uk-first-column.uk-grid-margin>div {
-        padding-right: 0;
     }
 }
+
 @media (max-width: 448px) {
-    body>div:nth-child(1)>div>img {
+    body>header>img {
         height: 50vh;
     }
 
-    body>div.uk-container.uk-container-expand.uk-margin-large.uk-margin-remove-bottom>div:nth-child(1)>div.uk-grid-margin.uk-first-column>div>div.uk-flex.uk-flex-middle>p {
+    body>section.uk-container.uk-container-expand.uk-margin-large.uk-margin-remove-bottom>div:nth-child(1)>div.uk-grid-margin.uk-first-column>div>div.uk-flex.uk-flex-middle>p {
         display: none !important;
     }
 }
-@media (max-width: 430px){
-    body > div.uk-container-expand > div > div.uk-position-bottom-center > h1{
+
+@media (max-width: 430px) {
+    body>section.uk-container-expand>div>div.uk-position-bottom-center>h1 {
         font-size: 24px !important;
     }
-    body > div:nth-child(2) > h1{
+
+    body>section:nth-child(2)>h1 {
         font-size: 1.5rem;
     }
-    #modal-container2 > div > h2{
+
+    #modal-container2>div>h2 {
         font-size: 22px;
     }
-    #modal-container > div > h2{
+
+    #modal-container>div>h2 {
         font-size: 22px;
     }
 }

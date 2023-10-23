@@ -1,64 +1,7 @@
-body{
-    text-align: justify !important;
-}
-/* Titulo */
-body > div > div > img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    filter: brightness(30%);
-}
-body > div > div > div > h1{
-    color: #fff;
-    font-weight: 700;
-    font-size: 34px !important;
-}
-body > div > div > div.uk-position-bottom-center > a{
-    display: block;
-    margin-bottom: 20px;
-    color: #0798B6;
-}
-
 /* Fabricación */
-body > div.uk-container-expand > div > div.uk-position-bottom-center > h1 > span{
-    font-size: 14px;
-    font-weight: 500;
-}
-body > div.uk-container-expand > div > div.uk-position-bottom-center > h1{
-    line-height: 30px;
-}
-body > div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid > div.uk-card-media-left.uk-cover-container.uk-first-column > img{
-    height: 100%;
-    filter: brightness(100%);
-    margin-bottom: 25px;
-}
-body > div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid > div:nth-child(2) > div > p{
+body > section > div.uk-card-body.uk-padding-remove-right.uk-padding-remove-top.uk-padding-remove-bottom > p{
     color: rgb(47, 47, 47);
     font-weight: 700;
-}
-body > div:nth-child(3){
-    background: linear-gradient(180deg, #0798B6 0%, #00778F 100%);
-    margin-bottom: 0 !important;
-}
-body > div:nth-child(3) > div.uk-card-media-right.uk-cover-container > img{
-    width: 100%;
-    max-width: 400px;
-    height: 100%;
-    max-height: 400px;
-    filter: brightness(100%);
-    margin: auto;
-    display: block;
-}
-body > div:nth-child(3) > div.uk-first-column > div > h2{
-    color: #fff;
-    margin-top: 0;
-    font-weight: 700;
-    font-size: 32px;
-}
-body > div:nth-child(3) > div.uk-first-column > div > p{
-    color: #fff;
-    font-weight: 500;
-    margin-top: 10px;
 }
 #modal-container2 > div > h2{
     color: #416567;
@@ -78,26 +21,8 @@ body > div:nth-child(3) > div.uk-first-column > div > p{
 }
 
 /* Responsive */
-@media (max-width: 886px){
-    body > div:nth-child(3) > div.uk-card-media-right.uk-cover-container{
-        display: none;
-    }
-    body > div:nth-child(3) > div.uk-first-column{
-        width: 100%;
-    }
-}
-@media (max-width: 639px){
-    body > div.uk-grid-collapse.uk-child-width-1-2\@s.uk-margin.uk-padding-large.uk-flex-middle.uk-grid.uk-grid-stack > div.uk-grid-margin.uk-first-column > div{
-        padding-left: 0;
-    }
-}
-@media (max-width: 470px){
-    body > div:nth-child(3) > div.uk-first-column > div > h2{
-        font-size: 24px;
-    }
-}
 @media (max-width: 448px){
-    body > div:nth-child(1) > div > img{
+    body > header > img{
         height: 50vh;
     }
 }

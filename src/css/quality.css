@@ -1,29 +1,21 @@
-body{
-    text-align: justify !important;
+/* Certificación */
+body > section{
+    background: linear-gradient(180deg, #416567 0%, #1C2D2E 100%);
 }
-/* Titulo */
-body > div > div > img{
-    width: 100%;
-    height: 70vh;
-    object-fit: cover;
-    filter: brightness(30%);
-}
-body > div > div > div > h1{
-    color: #fff;
-    font-weight: 700;
-    font-size: 34px !important;
-    line-height: 30px !important;
-}
-body > div > div > div.uk-position-bottom-center > a{
-    display: block;
-    margin-bottom: 20px;
-    color: #0798B6;
-}
-body > div:nth-child(1) > div > div.uk-position-bottom-center > h1 > span{
-    font-size: 18px;
+
+body > section > div.uk-child-width-expand > h2{
+    margin-bottom: 0;
     font-weight: 300;
+    font-size: 18px;
+    color: #fff;
 }
-body > div:nth-child(2) > div > div > p{
+body > section > div.uk-child-width-expand > h1{
+    font-weight: 700;
+    margin-top: 10px;
+    color: #fff;
+}
+
+body > section > div > p{
     color: #fff;
 }
 .button-black{
@@ -39,48 +31,23 @@ body > div:nth-child(2) > div > div > p{
     text-decoration: none;
 }
 
-/* Certificación */
-body > div:nth-child(2){
-    background: linear-gradient(180deg, #416567 0%, #1C2D2E 100%);
-}
-
-body > div:nth-child(2) > div > div.uk-child-width-expand > h2{
-    margin-bottom: 0;
-    font-weight: 300;
-    font-size: 18px;
-    color: #fff;
-}
-body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
-    font-weight: 700;
-    margin-top: 10px;
-}
-
 /* Responsive */
 @media (max-width: 700px){
-    body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
+    body > section > div > h1{
         font-size: 24px !important;
     }
 }
 @media (max-width: 448px){
-    body > div:nth-child(1) > div > img{
+    body > header > img{
         height: 50vh;
     }
-    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1{
+    body > header > h1{
         font-size: 24px !important;
     }
 }
 @media (max-width: 300px){
-    body > div:nth-child(2) > div > div.uk-child-width-expand > h1{
+    body > section > div.uk-child-width-expand > h1{
         font-size: 20px !important;
         padding: 10px;
-    }
-    body > div:nth-child(2) > div > div.uk-child-width-expand > h2{
-        font-size: 14px !important;
-    }
-    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1 > span{
-        font-size: 14px !important;
-    }
-    body > div:nth-child(1) > div > div.uk-position-bottom-center > h1{
-        font-size: 24px !important;
     }
 }
